@@ -1,0 +1,923 @@
+=== [2] spiral-i383 (spiral-rl/qwen3-8b-0708-games-bothink-iter383) — 1 GPU ===
+[ok] spiral-i383 ready on :60461 (130s)
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think0/seed0/harmful 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think0/seed0/benign 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think0/seed0/chat 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think0/seed1/harmful 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think0/seed1/benign 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think0/seed1/chat 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think0/seed2/harmful 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think0/seed2/benign 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think0/seed2/chat 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think0/seed3/harmful 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think0/seed3/benign 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think0/seed3/chat 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed0/harmful 완료됨
+[clean] 미완성 로그 삭제: /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed0/benign/2026-11-01T20-31-22-00-00_agentharm-benign_LwhvARMvLvJqHbNkQPjm4U.eval
+[run] spiral-i383 think=1 seed=0 split=benign
+[11/02/26 02:10:30] WARNING  sample=7-3                              run.py:2556
+                             Sample error (id: 7-3, epoch: 1):                  
+                             RetryError(<Future at 0x7d862e9d7610               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 02:18:44] WARNING  sample=37-4                             run.py:2556
+                             Sample error (id: 37-4, epoch: 1):                 
+                             RetryError(<Future at 0x7d862ee40090               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 02:20:19] WARNING  sample=1-4                              run.py:2556
+                             Sample error (id: 1-4, epoch: 1):                  
+                             RetryError(<Future at 0x7d862de71d10               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 02:22:39] WARNING  sample=46-3                             run.py:2556
+                             Sample error (id: 46-3, epoch: 1):                 
+                             RetryError(<Future at 0x7d862e3e92d0               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 02:22:52] WARNING  sample=46-2                             run.py:2556
+                             Sample error (id: 46-2, epoch: 1):                 
+                             RetryError(<Future at 0x7d862e355390               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 02:23:30] WARNING  sample=43-1                             run.py:2556
+                             Sample error (id: 43-1, epoch: 1):                 
+                             RetryError(<Future at 0x7d862e3ebcd0               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 02:25:33] WARNING  sample=25-3                             run.py:2556
+                             Sample error (id: 25-3, epoch: 1):                 
+                             RetryError(<Future at 0x7d8635cb46d0               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+╭──────────────────────────────────────────────────────────────────────────────╮
+│agentharm_benign (176 samples): openai-api/policy/spiral-i383                 │
+╰──────────────────────────────────────────────────────────────────────────────╯
+max_retries: 3, timeout: 3600, attempt_timeout: 1800, max_connections: 32,      
+max_tokens: 12288, temperature: 0.0, seed: 0, extra_body: {...}, fail_on_error: 
+0.05, message_limit: 20, split: test_public, refusal_judge:                     
+openai-api/judge/judge, semantic_judge: openai-api/judge/judge, dataset:        
+benign_behaviors_test_public                                                    
+                                                                                
+total time:                    1:30:57                                          
+openai-api/policy/spiral-i383  1,490,626 tokens [I: 966,987, O: 523,639, R:     
+                             284,285]                                           
+                                                                                
+                                                                                
+WARNING: 7 of 176 executed samples (3%) had errors and were not scored.         
+                                                                                
+Log:                                                                            
+logs/spiral-i383/think1/seed0/benign/2026-11-02T01-04-19-00-00_agentharm-benign_
+5aHT8aGHPFLMVYMJCZN5e3.eval                                                     
+                                                                                [skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed0/chat 완료됨
+[clean] 미완성 로그 삭제: /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed1/harmful/2026-11-01T20-33-00-00-00_agentharm_KZ8QghuUBmZCXN2J7Ci9hG.eval
+[run] spiral-i383 think=1 seed=1 split=harmful
+[11/02/26 03:39:36] WARNING  sample=24-1                             run.py:2556
+                             Sample error (id: 24-1, epoch: 1):                 
+                             RetryError(<Future at 0x7e324bc07f50               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 03:40:58] WARNING  sample=25-3                             run.py:2556
+                             Sample error (id: 25-3, epoch: 1):                 
+                             RetryError(<Future at 0x7e3248e19b90               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 03:42:26] WARNING  sample=35-3                             run.py:2556
+                             Sample error (id: 35-3, epoch: 1):                 
+                             RetryError(<Future at 0x7e32499d3410               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 03:42:52] WARNING  sample=35-4                             run.py:2556
+                             Sample error (id: 35-4, epoch: 1):                 
+                             RetryError(<Future at 0x7e3248fa49d0               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 03:42:54] WARNING  sample=35-2                             run.py:2556
+                             Sample error (id: 35-2, epoch: 1):                 
+                             RetryError(<Future at 0x7e324992a5d0               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 03:48:30] WARNING  sample=37-2                             run.py:2556
+                             Sample error (id: 37-2, epoch: 1):                 
+                             RetryError(<Future at 0x7e3249454d10               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 03:51:08] WARNING  sample=44-1                             run.py:2556
+                             Sample error (id: 44-1, epoch: 1):                 
+                             RetryError(<Future at 0x7e324910fb10               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 03:51:28] WARNING  sample=43-3                             run.py:2556
+                             Sample error (id: 43-3, epoch: 1):                 
+                             RetryError(<Future at 0x7e3249bb8f90               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+╭──────────────────────────────────────────────────────────────────────────────╮
+│agentharm (176 samples): openai-api/policy/spiral-i383                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in __call__                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in generate                                                                  │
+╰──────────────────────────────────────────────────────────────────────────────╯
+AttemptTimeoutError: attempt_timeout '1800' exceeded.                           
+                                                                                
+The above exception was the direct cause of the following exception:            
+                                                                                
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in task_run                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in run                                                                       │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in __aexit__                                                                 │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in __exit__                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in raise_unwrapped                                                           │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _run_coro                                                                 │
+│                                                                              │
+│   324 │   │                                                                  │
+│   325 │   │   with self._cancel_scope:                                       │
+│   326 │   │   │   try:                                                       │
+│ ❱ 327 │   │   │   │   retval = await self._coro                              │
+│   328 │   │   │   except BaseException as exc:                               │
+│   329 │   │   │   │   self._exception = exc                                  │
+│   330 │   │   │   │   raise                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in run_one                                                                   │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in run_sample                                                                │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in task_run_sample                                                           │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _task_run_sample_attempt                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _task_run_sample_attempt                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in raise_unwrapped                                                           │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _run_coro                                                                 │
+│                                                                              │
+│   324 │   │                                                                  │
+│   325 │   │   with self._cancel_scope:                                       │
+│   326 │   │   │   try:                                                       │
+│ ❱ 327 │   │   │   │   retval = await self._coro                              │
+│   328 │   │   │   except BaseException as exc:                               │
+│   329 │   │   │   │   self._exception = exc                                  │
+│   330 │   │   │   │   raise                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in run                                                                       │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in __call__                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in solve                                                                     │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in generate                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in task_generate                                                             │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in generate                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _generate_prepared                                                        │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _generate                                                                 │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in async_wrapped                                                             │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in __call__                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in iter                                                                      │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in inner                                                                     │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in exc_check                                                                 │
+╰──────────────────────────────────────────────────────────────────────────────╯
+RetryError: RetryError[<Future at 0x7e324bc8ee50 state=finished raised          
+AttemptTimeoutError>]                                                           
+                                                                                
+Task interrupted (154 of 176 total samples logged before interruption). Resume  
+task with:                                                                      
+                                                                                
+inspect eval-retry                                                              
+logs/spiral-i383/think1/seed1/harmful/2026-11-02T02-35-34-00-00_agentharm_e3Hw5…
+                                                                                
+Log:                                                                            
+logs/spiral-i383/think1/seed1/harmful/2026-11-02T02-35-34-00-00_agentharm_e3Hw56
+A4WELigphRomFuxY.eval                                                           
+                                                                                [skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed1/benign 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed1/chat 완료됨
+[clean] 미완성 로그 삭제: /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed2/harmful/2026-11-01T20-34-24-00-00_agentharm_VM9nm2vEvaaRzGmyYoCuJo.eval
+[run] spiral-i383 think=1 seed=2 split=harmful
+[11/02/26 04:54:57] WARNING  sample=14-3                             run.py:2556
+                             Sample error (id: 14-3, epoch: 1):                 
+                             RetryError(<Future at 0x7a16fad4ab50               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 04:55:16] WARNING  sample=7-1                              run.py:2556
+                             Sample error (id: 7-1, epoch: 1):                  
+                             RetryError(<Future at 0x7a17000bff10               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 04:55:44] WARNING  sample=14-2                             run.py:2556
+                             Sample error (id: 14-2, epoch: 1):                 
+                             RetryError(<Future at 0x7a16fb8ab850               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 04:56:49] WARNING  sample=24-1                             run.py:2556
+                             Sample error (id: 24-1, epoch: 1):                 
+                             RetryError(<Future at 0x7a16fbed4e10               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 04:59:20] WARNING  sample=29-3                             run.py:2556
+                             Sample error (id: 29-3, epoch: 1):                 
+                             RetryError(<Future at 0x7a16fad90ad0               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 04:59:39] WARNING  sample=33-3                             run.py:2556
+                             Sample error (id: 33-3, epoch: 1):                 
+                             RetryError(<Future at 0x7a1700994ed0               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 05:00:05] WARNING  sample=35-1                             run.py:2556
+                             Sample error (id: 35-1, epoch: 1):                 
+                             RetryError(<Future at 0x7a1700154dd0               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 05:00:46] WARNING  sample=37-1                             run.py:2556
+                             Sample error (id: 37-1, epoch: 1):                 
+                             RetryError(<Future at 0x7a16fb418dd0               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+╭──────────────────────────────────────────────────────────────────────────────╮
+│agentharm (176 samples): openai-api/policy/spiral-i383                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in __call__                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in generate                                                                  │
+╰──────────────────────────────────────────────────────────────────────────────╯
+AttemptTimeoutError: attempt_timeout '1800' exceeded.                           
+                                                                                
+The above exception was the direct cause of the following exception:            
+                                                                                
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in task_run                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in run                                                                       │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in __aexit__                                                                 │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in __exit__                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in raise_unwrapped                                                           │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _run_coro                                                                 │
+│                                                                              │
+│   324 │   │                                                                  │
+│   325 │   │   with self._cancel_scope:                                       │
+│   326 │   │   │   try:                                                       │
+│ ❱ 327 │   │   │   │   retval = await self._coro                              │
+│   328 │   │   │   except BaseException as exc:                               │
+│   329 │   │   │   │   self._exception = exc                                  │
+│   330 │   │   │   │   raise                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in run_one                                                                   │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in run_sample                                                                │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in task_run_sample                                                           │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _task_run_sample_attempt                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _task_run_sample_attempt                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in raise_unwrapped                                                           │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _run_coro                                                                 │
+│                                                                              │
+│   324 │   │                                                                  │
+│   325 │   │   with self._cancel_scope:                                       │
+│   326 │   │   │   try:                                                       │
+│ ❱ 327 │   │   │   │   retval = await self._coro                              │
+│   328 │   │   │   except BaseException as exc:                               │
+│   329 │   │   │   │   self._exception = exc                                  │
+│   330 │   │   │   │   raise                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in run                                                                       │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in __call__                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in solve                                                                     │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in generate                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in task_generate                                                             │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in generate                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _generate_prepared                                                        │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _generate                                                                 │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in async_wrapped                                                             │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in __call__                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in iter                                                                      │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in inner                                                                     │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in exc_check                                                                 │
+╰──────────────────────────────────────────────────────────────────────────────╯
+RetryError: RetryError[<Future at 0x7a16fb4b2090 state=finished raised          
+AttemptTimeoutError>]                                                           
+                                                                                
+Task interrupted (151 of 176 total samples logged before interruption). Resume  
+task with:                                                                      
+                                                                                
+inspect eval-retry                                                              
+logs/spiral-i383/think1/seed2/harmful/2026-11-02T03-52-39-00-00_agentharm_P6k6q…
+                                                                                
+Log:                                                                            
+logs/spiral-i383/think1/seed2/harmful/2026-11-02T03-52-39-00-00_agentharm_P6k6qx
+7PmJ94tAMqQcdVkq.eval                                                           
+                                                                                [clean] 미완성 로그 삭제: /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed2/benign/2026-11-01T20-35-44-00-00_agentharm-benign_bpN8kvYLRF4TibRjJS7DTh.eval
+[run] spiral-i383 think=1 seed=2 split=benign
+[11/02/26 06:02:35] WARNING  sample=7-3                              run.py:2556
+                             Sample error (id: 7-3, epoch: 1):                  
+                             RetryError(<Future at 0x7a17001cdd90               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 06:02:48] WARNING  sample=2-4                              run.py:2556
+                             Sample error (id: 2-4, epoch: 1):                  
+                             RetryError(<Future at 0x7a16fafba0d0               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 06:02:51] WARNING  sample=1-3                              run.py:2556
+                             Sample error (id: 1-3, epoch: 1):                  
+                             RetryError(<Future at 0x7a16fbabf790               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 06:03:43] WARNING  sample=20-2                             run.py:2556
+                             Sample error (id: 20-2, epoch: 1):                 
+                             RetryError(<Future at 0x7a16fbb59a50               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 06:04:20] WARNING  sample=17-3                             run.py:2556
+                             Sample error (id: 17-3, epoch: 1):                 
+                             RetryError(<Future at 0x7a16fbadebd0               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 06:12:43] WARNING  sample=7-4                              run.py:2556
+                             Sample error (id: 7-4, epoch: 1):                  
+                             RetryError(<Future at 0x7a16fa7eae90               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 06:12:55] WARNING  sample=14-3                             run.py:2556
+                             Sample error (id: 14-3, epoch: 1):                 
+                             RetryError(<Future at 0x7a1702710c90               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 06:14:14] WARNING  sample=21-1                             run.py:2556
+                             Sample error (id: 21-1, epoch: 1):                 
+                             RetryError(<Future at 0x7a16fbb81710               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+╭──────────────────────────────────────────────────────────────────────────────╮
+│agentharm_benign (176 samples): openai-api/policy/spiral-i383                 │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in __call__                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in generate                                                                  │
+╰──────────────────────────────────────────────────────────────────────────────╯
+AttemptTimeoutError: attempt_timeout '1800' exceeded.                           
+                                                                                
+The above exception was the direct cause of the following exception:            
+                                                                                
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in task_run                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in run                                                                       │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in __aexit__                                                                 │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in __exit__                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in raise_unwrapped                                                           │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _run_coro                                                                 │
+│                                                                              │
+│   324 │   │                                                                  │
+│   325 │   │   with self._cancel_scope:                                       │
+│   326 │   │   │   try:                                                       │
+│ ❱ 327 │   │   │   │   retval = await self._coro                              │
+│   328 │   │   │   except BaseException as exc:                               │
+│   329 │   │   │   │   self._exception = exc                                  │
+│   330 │   │   │   │   raise                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in run_one                                                                   │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in run_sample                                                                │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in task_run_sample                                                           │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _task_run_sample_attempt                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _task_run_sample_attempt                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in raise_unwrapped                                                           │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _run_coro                                                                 │
+│                                                                              │
+│   324 │   │                                                                  │
+│   325 │   │   with self._cancel_scope:                                       │
+│   326 │   │   │   try:                                                       │
+│ ❱ 327 │   │   │   │   retval = await self._coro                              │
+│   328 │   │   │   except BaseException as exc:                               │
+│   329 │   │   │   │   self._exception = exc                                  │
+│   330 │   │   │   │   raise                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in run                                                                       │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in __call__                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in solve                                                                     │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in generate                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in task_generate                                                             │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in generate                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _generate_prepared                                                        │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _generate                                                                 │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in async_wrapped                                                             │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in __call__                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in iter                                                                      │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in inner                                                                     │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in exc_check                                                                 │
+╰──────────────────────────────────────────────────────────────────────────────╯
+RetryError: RetryError[<Future at 0x7a16fa8574d0 state=finished raised          
+AttemptTimeoutError>]                                                           
+                                                                                
+Task interrupted (149 of 176 total samples logged before interruption). Resume  
+task with:                                                                      
+                                                                                
+inspect eval-retry                                                              
+logs/spiral-i383/think1/seed2/benign/2026-11-02T05-01-08-00-00_agentharm-benign…
+                                                                                
+Log:                                                                            
+logs/spiral-i383/think1/seed2/benign/2026-11-02T05-01-08-00-00_agentharm-benign_
+fYhjSvhVgBNF2P7CnPHXtJ.eval                                                     
+                                                                                [skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed2/chat 완료됨
+[clean] 미완성 로그 삭제: /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed3/harmful/2026-11-01T20-36-56-00-00_agentharm_ZxyThZGPnUqXoehuGUiLwj.eval
+[run] spiral-i383 think=1 seed=3 split=harmful
+[11/02/26 07:20:50] WARNING  sample=21-4                             run.py:2556
+                             Sample error (id: 21-4, epoch: 1):                 
+                             RetryError(<Future at 0x758518939650               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 07:22:06] WARNING  sample=23-1                             run.py:2556
+                             Sample error (id: 23-1, epoch: 1):                 
+                             RetryError(<Future at 0x758519675b90               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 07:23:29] WARNING  sample=27-2                             run.py:2556
+                             Sample error (id: 27-2, epoch: 1):                 
+                             RetryError(<Future at 0x7585182c7650               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 07:25:14] WARNING  sample=35-3                             run.py:2556
+                             Sample error (id: 35-3, epoch: 1):                 
+                             RetryError(<Future at 0x7585186b2b90               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 07:26:21] WARNING  sample=14-4                             run.py:2556
+                             Sample error (id: 14-4, epoch: 1):                 
+                             RetryError(<Future at 0x758518a4cd90               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 07:26:36] WARNING  sample=37-1                             run.py:2556
+                             Sample error (id: 37-1, epoch: 1):                 
+                             RetryError(<Future at 0x758518199050               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 07:28:06] WARNING  sample=14-2                             run.py:2556
+                             Sample error (id: 14-2, epoch: 1):                 
+                             RetryError(<Future at 0x758518096d90               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 07:29:27] WARNING  sample=11-2                             run.py:2556
+                             Sample error (id: 11-2, epoch: 1):                 
+                             RetryError(<Future at 0x758518354710               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+╭──────────────────────────────────────────────────────────────────────────────╮
+│agentharm (176 samples): openai-api/policy/spiral-i383                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in __call__                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in generate                                                                  │
+╰──────────────────────────────────────────────────────────────────────────────╯
+AttemptTimeoutError: attempt_timeout '1800' exceeded.                           
+                                                                                
+The above exception was the direct cause of the following exception:            
+                                                                                
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in task_run                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in run                                                                       │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in __aexit__                                                                 │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in __exit__                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in raise_unwrapped                                                           │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _run_coro                                                                 │
+│                                                                              │
+│   324 │   │                                                                  │
+│   325 │   │   with self._cancel_scope:                                       │
+│   326 │   │   │   try:                                                       │
+│ ❱ 327 │   │   │   │   retval = await self._coro                              │
+│   328 │   │   │   except BaseException as exc:                               │
+│   329 │   │   │   │   self._exception = exc                                  │
+│   330 │   │   │   │   raise                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in run_one                                                                   │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in run_sample                                                                │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in task_run_sample                                                           │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _task_run_sample_attempt                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _task_run_sample_attempt                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in raise_unwrapped                                                           │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _run_coro                                                                 │
+│                                                                              │
+│   324 │   │                                                                  │
+│   325 │   │   with self._cancel_scope:                                       │
+│   326 │   │   │   try:                                                       │
+│ ❱ 327 │   │   │   │   retval = await self._coro                              │
+│   328 │   │   │   except BaseException as exc:                               │
+│   329 │   │   │   │   self._exception = exc                                  │
+│   330 │   │   │   │   raise                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in run                                                                       │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in __call__                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in solve                                                                     │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in generate                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in task_generate                                                             │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in generate                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _generate_prepared                                                        │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _generate                                                                 │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in async_wrapped                                                             │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in __call__                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in iter                                                                      │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in inner                                                                     │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in exc_check                                                                 │
+╰──────────────────────────────────────────────────────────────────────────────╯
+RetryError: RetryError[<Future at 0x75851b8c8dd0 state=finished raised          
+AttemptTimeoutError>]                                                           
+                                                                                
+Task interrupted (153 of 176 total samples logged before interruption). Resume  
+task with:                                                                      
+                                                                                
+inspect eval-retry                                                              
+logs/spiral-i383/think1/seed3/harmful/2026-11-02T06-15-03-00-00_agentharm_2Bswj…
+                                                                                
+Log:                                                                            
+logs/spiral-i383/think1/seed3/harmful/2026-11-02T06-15-03-00-00_agentharm_2BswjW
+c2i32Q5UvfHyzyW5.eval                                                           
+                                                                                [clean] 미완성 로그 삭제: /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed3/benign/2026-11-01T20-38-13-00-00_agentharm-benign_KDG2qA4Zgj8nHLF8pkTqqh.eval
+[run] spiral-i383 think=1 seed=3 split=benign
+[11/02/26 08:33:45] WARNING  sample=1-3                              run.py:2556
+                             Sample error (id: 1-3, epoch: 1):                  
+                             RetryError(<Future at 0x758519a34f90               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 08:34:23] WARNING  sample=14-2                             run.py:2556
+                             Sample error (id: 14-2, epoch: 1):                 
+                             RetryError(<Future at 0x758518c45fd0               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 08:34:58] WARNING  sample=7-2                              run.py:2556
+                             Sample error (id: 7-2, epoch: 1):                  
+                             RetryError(<Future at 0x75851c5d0850               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 08:39:39] WARNING  sample=27-1                             run.py:2556
+                             Sample error (id: 27-1, epoch: 1):                 
+                             RetryError(<Future at 0x758518b6a710               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 08:42:16] WARNING  sample=2-2                              run.py:2556
+                             Sample error (id: 2-2, epoch: 1):                  
+                             RetryError(<Future at 0x7585180b8950               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 08:42:38] WARNING  sample=11-4                             run.py:2556
+                             Sample error (id: 11-4, epoch: 1):                 
+                             RetryError(<Future at 0x75851ad846d0               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 08:44:24] WARNING  sample=11-1                             run.py:2556
+                             Sample error (id: 11-1, epoch: 1):                 
+                             RetryError(<Future at 0x7585185fe910               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+[11/02/26 08:44:38] WARNING  sample=2-1                              run.py:2556
+                             Sample error (id: 2-1, epoch: 1):                  
+                             RetryError(<Future at 0x758518fd2410               
+                             state=finished raised                              
+                             AttemptTimeoutError>))                             
+╭──────────────────────────────────────────────────────────────────────────────╮
+│agentharm_benign (176 samples): openai-api/policy/spiral-i383                 │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in __call__                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in generate                                                                  │
+╰──────────────────────────────────────────────────────────────────────────────╯
+AttemptTimeoutError: attempt_timeout '1800' exceeded.                           
+                                                                                
+The above exception was the direct cause of the following exception:            
+                                                                                
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in task_run                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in run                                                                       │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in __aexit__                                                                 │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in __exit__                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in raise_unwrapped                                                           │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _run_coro                                                                 │
+│                                                                              │
+│   324 │   │                                                                  │
+│   325 │   │   with self._cancel_scope:                                       │
+│   326 │   │   │   try:                                                       │
+│ ❱ 327 │   │   │   │   retval = await self._coro                              │
+│   328 │   │   │   except BaseException as exc:                               │
+│   329 │   │   │   │   self._exception = exc                                  │
+│   330 │   │   │   │   raise                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in run_one                                                                   │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in run_sample                                                                │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in task_run_sample                                                           │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _task_run_sample_attempt                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _task_run_sample_attempt                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in raise_unwrapped                                                           │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _run_coro                                                                 │
+│                                                                              │
+│   324 │   │                                                                  │
+│   325 │   │   with self._cancel_scope:                                       │
+│   326 │   │   │   try:                                                       │
+│ ❱ 327 │   │   │   │   retval = await self._coro                              │
+│   328 │   │   │   except BaseException as exc:                               │
+│   329 │   │   │   │   self._exception = exc                                  │
+│   330 │   │   │   │   raise                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in run                                                                       │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in __call__                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in solve                                                                     │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in generate                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in task_generate                                                             │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in generate                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _generate_prepared                                                        │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in _generate                                                                 │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in async_wrapped                                                             │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in __call__                                                                  │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in iter                                                                      │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in inner                                                                     │
+│                                                                              │
+│ /scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/env… │
+│ in exc_check                                                                 │
+╰──────────────────────────────────────────────────────────────────────────────╯
+RetryError: RetryError[<Future at 0x758518cfa490 state=finished raised          
+AttemptTimeoutError>]                                                           
+                                                                                
+Task interrupted (133 of 176 total samples logged before interruption). Resume  
+task with:                                                                      
+                                                                                
+inspect eval-retry                                                              
+logs/spiral-i383/think1/seed3/benign/2026-11-02T07-31-16-00-00_agentharm-benign…
+                                                                                
+Log:                                                                            
+logs/spiral-i383/think1/seed3/benign/2026-11-02T07-31-16-00-00_agentharm-benign_
+QiSszWYiCF7TgwQD9SWe6w.eval                                                     
+                                                                                [skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed3/chat 완료됨
+[ok] judge ready on :55425 (120s)
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think0/seed0/benign/2026-10-31T03-38-48-00-00_agentharm-benign_ZJjCCXRHyeMgSfhEKTaWZU.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think0/seed0/chat/2026-10-31T03-44-54-00-00_agentharm_F9nAvFL6vT8ZwzywDQn8YW.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think0/seed0/harmful/2026-10-31T03-33-00-00-00_agentharm_PaXyJbcMgYeszsRU8jSPJW.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think0/seed1/benign/2026-10-31T03-52-49-00-00_agentharm-benign_mbGn7mgyjRs3s75pLDFNWv.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think0/seed1/chat/2026-10-31T04-00-33-00-00_agentharm_ac3EZvcoWXtJt9zxSzGrFh.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think0/seed1/harmful/2026-10-31T03-45-52-00-00_agentharm_XfdCfjXmGr7Ltdu84vMcJN.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think0/seed2/benign/2026-10-31T04-09-18-00-00_agentharm-benign_fniMG5FnNkvgBz6WXoGdTN.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think0/seed2/chat/2026-10-31T04-19-06-00-00_agentharm_UyWCtehsXy6tUPrY9MqNko.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think0/seed2/harmful/2026-10-31T04-01-27-00-00_agentharm_Hopnd7aBW3avyi37i4RZSh.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think0/seed3/benign/2026-10-31T04-27-34-00-00_agentharm-benign_5vas9aXTHWNwVGvk3wSprK.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think0/seed3/chat/2026-10-31T04-35-58-00-00_agentharm_g5oRZcNHEckFEcNsUT67qk.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think0/seed3/harmful/2026-10-31T04-20-08-00-00_agentharm_dDnSnHmSscBDvu2PuEpJ4g.eval 이미 채점됨
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed0/benign/2026-11-02T01-04-19-00-00_agentharm-benign_5aHT8aGHPFLMVYMJCZN5e3.eval
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed0/chat/2026-10-31T11-09-31-00-00_agentharm_QXYeMLV9PrrPzyGpt4DzPK.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed0/harmful/2026-10-31T05-55-48-00-00_agentharm_QndTw2TAAtaFm37cNXuvjs.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed1/benign/2026-10-31T13-17-52-00-00_agentharm-benign_Y6YiSenvcA3EfixqPDreGh.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed1/chat/2026-10-31T15-04-42-00-00_agentharm_BLd2MUFEW59pE9hsSwKmJp.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed1/harmful/2026-11-02T02-35-34-00-00_agentharm_e3Hw56A4WELigphRomFuxY.eval status=error
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed2/benign/2026-11-02T05-01-08-00-00_agentharm-benign_fYhjSvhVgBNF2P7CnPHXtJ.eval status=error
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed2/chat/2026-11-01T03-52-03-00-00_agentharm_hz5m5gqDEzALe32AkcSBDd.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed2/harmful/2026-11-02T03-52-39-00-00_agentharm_P6k6qx7PmJ94tAMqQcdVkq.eval status=error
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed3/benign/2026-11-02T07-31-16-00-00_agentharm-benign_QiSszWYiCF7TgwQD9SWe6w.eval status=error
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed3/chat/2026-11-01T08-25-07-00-00_agentharm_WPtgqsxxKMqhLyg5B6YKSY.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed3/harmful/2026-11-02T06-15-03-00-00_agentharm_2BswjWc2i32Q5UvfHyzyW5.eval status=error
+[ok] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/results/visible_refusal/spiral-i383/think1/seed0/benign/2026-11-02T01-04-19-00-00_agentharm-benign_5aHT8aGHPFLMVYMJCZN5e3.visible.json (누적 truncated=0)
+[warn] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed1/harmful/2026-11-02T02-35-34-00-00_agentharm_e3Hw56A4WELigphRomFuxY.eval status=error — 건너뜀
+[warn] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed2/benign/2026-11-02T05-01-08-00-00_agentharm-benign_fYhjSvhVgBNF2P7CnPHXtJ.eval status=error — 건너뜀
+[warn] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed2/harmful/2026-11-02T03-52-39-00-00_agentharm_P6k6qx7PmJ94tAMqQcdVkq.eval status=error — 건너뜀
+[warn] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed3/benign/2026-11-02T07-31-16-00-00_agentharm-benign_QiSszWYiCF7TgwQD9SWe6w.eval status=error — 건너뜀
+[warn] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed3/harmful/2026-11-02T06-15-03-00-00_agentharm_2BswjWc2i32Q5UvfHyzyW5.eval status=error — 건너뜀
+=== done spiral-i383 ===

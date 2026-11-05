@@ -1,0 +1,32 @@
+=== [2] spiral-i383 (spiral-rl/qwen3-8b-0708-games-bothink-iter383) — 1 GPU ===
+[ok] spiral-i383 ready on :59985 (80s)
+[run] spiral-i383 think=1 seed=1 split=harmful
+╭──────────────────────────────────────────────────────────────────────────────╮
+│agentharm (176 samples): openai-api/policy/spiral-i383                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+max_retries: 3, timeout: 3600, attempt_timeout: 1800, max_connections: 8,       
+max_tokens: 12288, top_p: 0.95, temperature: 0.6, seed: 1, extra_body: {...},   
+fail_on_error: 0.05, message_limit: 20, split: test_public, refusal_judge:      
+openai-api/judge/judge, semantic_judge: openai-api/judge/judge, dataset:        
+harmful_behaviors_test_public                                                   
+                                                                                
+total time:                    1:23:57                                          
+openai-api/policy/spiral-i383  1,990,754 tokens [I: 937,404, O: 1,053,350, R:   
+                             563,436]                                           
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs/spiral-i383/think1/seed1/harmful/2026-11-03T16-37-55-00-00_agentharm_jKLT7K
+NhLudSE9B6ZG367T.eval                                                           
+                                                                                [11/03/26 18:01:54] WARNING  Error cleaning up sample buffer    database.py:2195
+                             databases at                                       
+                             /home/eunbiyoon_umass_edu/.local/s                 
+                             hare/inspect_ai/samplebuffer:                      
+                             [Errno 2] No such file or                          
+                             directory:                                         
+                             '/home/eunbiyoon_umass_edu/.local/                 
+                             share/inspect_ai/samplebuffer/fbd8                 
+                             da3d113a45ff2f80039d326878ca105815                 
+                             7bba6583b58d6a7cd93112a58d'                        
+=== gen-only done spiral-i383 (1 / 1 / harmful) ===

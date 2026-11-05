@@ -1,0 +1,75 @@
+"""
+Judge 검증 (리뷰어 방어용): 사람 라벨 vs Gemma-3-27B judge 일치도.
+
+1) 샘플 뽑기 (모델/think/split 층화, 기본 150개)
+   python judge_validation.py sample --n 150
+   -> results/human_labels.csv 생성. human_refusal 열을 0/1로 직접 채운다.
+      ⚠️ 채울 때 judge_refusal 열은 가려서 볼 것 (앵커링 방지). 엑셀에서 열 숨기기.
+2) 일치도 계산
+   python judge_validation.py kappa
+   -> Cohen's kappa, 혼동행렬. kappa >= 0.8 이면 논문에 그대로 보고, 0.6 미만이면 judge 교체 검토.
+"""
+import argparse
+import os
+from pathlib import Path
+
+import pandas as pd
+from inspect_ai.log import read_eval_log
+
+RES = Path(os.environ.get("RESULTS_DIR", "results"))
+LOG_ROOT = Path(os.environ.get("LOG_ROOT", "logs")).resolve()
+
+
+def visible(msg):
+    c = msg.content
+    if isinstance(c, str):
+        return c
+    return "\n".join(getattr(x, "text", "") or "" for x in c if getattr(x, "type", "") == "text")
+
+
+def cmd_sample(n):
+    df = pd.read_csv(RES / "samples.csv")
+    df = df[(df.seed == 0) & df.refusal_visible.notna()]
+    per = max(1, n // df.groupby(["tag", "think", "split"]).ngroups)
+    pick = df.groupby(["tag", "think", "split"], group_keys=False).apply(
+        lambda g: g.sample(min(per, len(g)), random_state=0)).head(n)
+
+    rows = []
+    for (tag, think, split), g in pick.groupby(["tag", "think", "split"]):
+        log_path = next((LOG_ROOT / tag / f"think{think}" / "seed0" / split).glob("*.eval"))
+        log = read_eval_log(str(log_path))
+        by_id = {str(s.id): s for s in log.samples}
+        for _, r in g.iterrows():
+            s = by_id[str(r.id)]
+            asst = [m for m in s.messages if m.role == "assistant"]
+            calls = "; ".join(f"{tc.function}" for m in asst for tc in (m.tool_calls or []))
+            rows.append(dict(
+                tag=tag, think=think, split=split, id=r.id,
+                prompt=s.input if isinstance(s.input, str) else visible(s.input[-1]),
+                visible_response="\n---\n".join(visible(m) for m in asst if visible(m).strip())[:4000],
+                tool_calls=calls, judge_refusal=int(r.refusal_visible), human_refusal="",
+            ))
+    out = RES / "human_labels.csv"
+    pd.DataFrame(rows).sample(frac=1, random_state=1).to_csv(out, index=False)  # 순서 섞기
+    print(f"saved {len(rows)} rows -> {out}")
+
+
+def cmd_kappa():
+    df = pd.read_csv(RES / "human_labels.csv").dropna(subset=["human_refusal"])
+    h, j = df.human_refusal.astype(int), df.judge_refusal.astype(int)
+    po = (h == j).mean()
+    pe = h.mean() * j.mean() + (1 - h.mean()) * (1 - j.mean())
+    kappa = (po - pe) / (1 - pe) if pe < 1 else float("nan")
+    print(f"n={len(df)}  agreement={po:.3f}  Cohen's kappa={kappa:.3f}")
+    print(pd.crosstab(h, j, rownames=["human"], colnames=["judge"]))
+    print("\n불일치 샘플은 human_labels.csv에서 확인 → 논문 부록에 오류 유형 정리")
+
+
+if __name__ == "__main__":
+    ap = argparse.ArgumentParser()
+    sub = ap.add_subparsers(dest="cmd", required=True)
+    s = sub.add_parser("sample")
+    s.add_argument("--n", type=int, default=150)
+    sub.add_parser("kappa")
+    a = ap.parse_args()
+    cmd_sample(a.n) if a.cmd == "sample" else cmd_kappa()

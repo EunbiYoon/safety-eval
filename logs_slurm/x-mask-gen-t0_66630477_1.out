@@ -1,0 +1,37 @@
+uri-gpu011
+Tue Nov  3 10:59:05 PM UTC 2026
+/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/bin/python
+Python 3.11.18
+=== [1] marshal-gen stage=gen benches=[mask] think=[0] seeds=[0] limit=[] ===
+[ok] marshal-gen ready on :54819 (120s)
+[run] mask marshal-gen think=0 seed=0 part=all
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/176 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 176/176 [00:00<00:00, 8399.87 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 176/176 [00:00<00:00, 8239.82 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/125 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 125/125 [00:00<00:00, 6921.11 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 125/125 [00:00<00:00, 6760.47 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/120 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 120/120 [00:00<00:00, 6002.15 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 120/120 [00:00<00:00, 5917.68 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/209 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 209/209 [00:00<00:00, 9702.05 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 209/209 [00:00<00:00, 9536.66 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/274 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 274/274 [00:00<00:00, 12842.24 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 274/274 [00:00<00:00, 12627.89 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/96 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 96/96 [00:00<00:00, 4816.71 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 96/96 [00:00<00:00, 4727.92 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│mask (1,000 samples): openai-api/policy/marshal-gen                           │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 1000,     
+temperature: 1.0, seed: 0, extra_body: {...}, epochs_reducer:                   
+inspect_evals/_reduce, fail_on_error: 0.05, log_buffer: 50, binary_judge_model: 
+openai-api/judge/judge, numeric_judge_model: openai-api/judge/judge,            
+judge_temperature: 0.0, dataset: (samples)                                      
+                                                                                
+total time:                    0:56:13                                          
+openai-api/policy/marshal-gen  1,395,467 tokens [I: 367,091, O: 1,028,376, R: 0]
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/mask/marshal-gen/think0/seed0/all/2026-11-03T23-01-31-00-00_mask_aQM5
+EiktxyE4ot2GGzpc9F.eval                                                         
+                                                                                === done marshal-gen stage=gen ===

@@ -1,0 +1,33 @@
+ials-gpu034
+Wed Nov  4 12:30:38 AM UTC 2026
+/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/bin/python
+Python 3.11.18
+=== [0] qwen3-8b stage=score benches=[mask] think=[0 1] seeds=[0 1 2 3] limit=[] ===
+[ok] judge ready on :42441 (110s)
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/176 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 176/176 [00:00<00:00, 9953.31 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 176/176 [00:00<00:00, 9760.00 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/125 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 125/125 [00:00<00:00, 7316.63 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 125/125 [00:00<00:00, 7150.19 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/120 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 120/120 [00:00<00:00, 6766.64 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 120/120 [00:00<00:00, 6672.81 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/209 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 209/209 [00:00<00:00, 12505.66 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 209/209 [00:00<00:00, 12301.74 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/274 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 274/274 [00:00<00:00, 16990.53 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 274/274 [00:00<00:00, 16649.61 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/96 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 96/96 [00:00<00:00, 6739.53 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 96/96 [00:00<00:00, 6591.58 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra_smoke/mask/qwen3-8b/think0/seed0/all/2026-11-03T21-51-50-00-00_mask_C4NsvYU2qjKQiBz43gzXZZ.eval
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/176 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 176/176 [00:00<00:00, 11038.30 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 176/176 [00:00<00:00, 10860.96 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/125 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 125/125 [00:00<00:00, 7557.09 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 125/125 [00:00<00:00, 7435.55 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/120 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 120/120 [00:00<00:00, 6841.70 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 120/120 [00:00<00:00, 6712.14 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/209 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 209/209 [00:00<00:00, 11923.25 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 209/209 [00:00<00:00, 11722.83 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/274 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 274/274 [00:00<00:00, 19504.75 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 274/274 [00:00<00:00, 19162.29 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/96 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 96/96 [00:00<00:00, 6611.49 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 96/96 [00:00<00:00, 6468.32 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra_smoke/mask/qwen3-8b/think1/seed0/all/2026-11-03T21-52-48-00-00_mask_KfE5gQFmq9YJTj6qAgXWz9.eval
+=== done qwen3-8b stage=score ===

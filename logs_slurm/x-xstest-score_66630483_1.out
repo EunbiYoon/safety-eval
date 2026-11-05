@@ -1,0 +1,55 @@
+gpu044
+Wed Nov  4 01:55:46 AM UTC 2026
+/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/bin/python
+Python 3.11.18
+=== [1] marshal-gen stage=score benches=[xstest] think=[0 1] seeds=[0 1 2 3] limit=[] ===
+[ok] judge ready on :45501 (100s)
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 24748.08 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 24353.08 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/marshal-gen/think0/seed0/safe/2026-11-03T23-56-05-00-00_xstest_fU68FrfG8AFtxz9TuS5y2M.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 31645.04 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 30829.89 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/marshal-gen/think0/seed0/unsafe/2026-11-04T00-01-49-00-00_xstest_ApPS57u8UeJp27rUYiEbwU.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 36875.52 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 35707.68 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/marshal-gen/think0/seed1/safe/2026-11-04T00-04-24-00-00_xstest_SsNb5Vge9htTqXGL48pcwQ.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 37519.12 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 36620.10 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/marshal-gen/think0/seed1/unsafe/2026-11-04T00-10-17-00-00_xstest_Mv6NrnBcnbCx9J4AqF5Ttz.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 34869.23 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 34001.13 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/marshal-gen/think0/seed2/safe/2026-11-04T00-12-47-00-00_xstest_eGPTHHVJWJkVMXDkVqvpGv.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 42531.87 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 41270.78 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/marshal-gen/think0/seed2/unsafe/2026-11-04T00-18-39-00-00_xstest_oRgBDfHpqNxKjXvw6yaJZT.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 43078.40 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 41578.99 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/marshal-gen/think0/seed3/safe/2026-11-04T00-21-16-00-00_xstest_QrrRGBkqSnJiPkyKGjtez3.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 34244.19 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 33402.41 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/marshal-gen/think0/seed3/unsafe/2026-11-04T00-27-09-00-00_xstest_jocVZjdAneFtXkJQXJnGfW.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 19916.39 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 19639.73 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/marshal-gen/think1/seed0/safe/2026-11-04T00-31-29-00-00_xstest_HdbabUWwsvdpXXC8xeygya.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 26099.85 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 25639.99 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/marshal-gen/think1/seed0/unsafe/2026-11-04T00-44-51-00-00_xstest_GxPuzc5mrAftrYBVdQcnLJ.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 26491.83 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 25979.14 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/marshal-gen/think1/seed1/safe/2026-11-04T00-51-43-00-00_xstest_ifvec8fEiaRrqBF6oWJ2C8.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 21091.51 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 20778.51 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/marshal-gen/think1/seed1/unsafe/2026-11-04T01-04-48-00-00_xstest_mDj6PiFhu3FiPWnDCYwcXV.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 40529.90 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 39374.92 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/marshal-gen/think1/seed2/safe/2026-11-04T01-11-24-00-00_xstest_mehbvPbSyyFUFDrGASvwNa.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 20800.49 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 20501.36 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/marshal-gen/think1/seed2/unsafe/2026-11-04T01-24-19-00-00_xstest_Znzqoiw6kTTZ5yKZ4tkKmF.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 37841.07 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 36864.72 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/marshal-gen/think1/seed3/safe/2026-11-04T01-30-54-00-00_xstest_V2w2ENGdMjZH7cjqNW4bnQ.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 36790.71 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 35860.33 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/marshal-gen/think1/seed3/unsafe/2026-11-04T01-43-48-00-00_xstest_nVYpkE9fiyiZH6LWt4akUB.eval
+=== done marshal-gen stage=score ===

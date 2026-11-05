@@ -1,0 +1,55 @@
+ials-gpu034
+Wed Nov  4 01:44:12 AM UTC 2026
+/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/bin/python
+Python 3.11.18
+=== [2] spiral-i383 stage=score benches=[xstest] think=[0 1] seeds=[0 1 2 3] limit=[] ===
+[ok] judge ready on :35875 (90s)
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 31019.90 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 30199.47 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/spiral-i383/think0/seed0/safe/2026-11-03T23-58-46-00-00_xstest_mvK3TbAK3iT7dqffqg9DuN.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 39050.69 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 37759.31 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/spiral-i383/think0/seed0/unsafe/2026-11-04T00-04-23-00-00_xstest_Ht9UznfAWHd4PtattM73Ap.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 43644.19 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 42024.29 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/spiral-i383/think0/seed1/safe/2026-11-04T00-06-59-00-00_xstest_RgmdJGi22BbQBaTnBYw8nF.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 35183.18 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 34307.05 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/spiral-i383/think0/seed1/unsafe/2026-11-04T00-12-29-00-00_xstest_VGHGZPwgxEY5JShbAGvpFi.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 40923.59 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 39726.31 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/spiral-i383/think0/seed2/safe/2026-11-04T00-15-04-00-00_xstest_mzzNpFeg6JqWnCES6rfULo.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 41344.92 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 40161.65 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/spiral-i383/think0/seed2/unsafe/2026-11-04T00-20-41-00-00_xstest_3MRfGZnUpzLFNehqiDiFYd.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 43044.01 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 41749.14 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/spiral-i383/think0/seed3/safe/2026-11-04T00-23-14-00-00_xstest_Y4tmk84NVjLJh2jMtuEGx4.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 39469.61 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 38388.28 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/spiral-i383/think0/seed3/unsafe/2026-11-04T00-28-44-00-00_xstest_df9B9dBbeZmqSJq4WTMUaU.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 41096.45 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 39939.84 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/spiral-i383/think1/seed0/safe/2026-11-04T00-35-38-00-00_xstest_YZdXgEAE2unwGzxBxeqMCp.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 41774.09 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 40526.42 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/spiral-i383/think1/seed0/unsafe/2026-11-04T00-46-44-00-00_xstest_GP7YnB6AcKKYgEgZHykh8k.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 33299.29 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 32993.69 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/spiral-i383/think1/seed1/safe/2026-11-04T00-52-41-00-00_xstest_Ksc9dzWGz8RJZDLavpjBoB.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 41696.57 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 40502.94 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/spiral-i383/think1/seed1/unsafe/2026-11-04T01-04-01-00-00_xstest_6wK4FFuSPCFReTuq5oXdrM.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 38893.77 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 38052.39 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/spiral-i383/think1/seed2/safe/2026-11-04T01-10-05-00-00_xstest_D7KCp72YWckGqLfYNdDmw2.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 35482.80 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 34689.79 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/spiral-i383/think1/seed2/unsafe/2026-11-04T01-21-11-00-00_xstest_ip6ksRpavByCpMPEYk5i8B.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 41034.80 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 39867.28 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/spiral-i383/think1/seed3/safe/2026-11-04T01-27-05-00-00_xstest_Np2GwxRoNkA9eWkqyJWnLZ.eval
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 37220.94 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 36193.85 examples/s]
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_extra/xstest/spiral-i383/think1/seed3/unsafe/2026-11-04T01-38-10-00-00_xstest_Xxahpr96bkzk5cydvGZFwU.eval
+=== done spiral-i383 stage=score ===

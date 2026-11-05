@@ -1,0 +1,2 @@
+=== [2] spiral-i383 (spiral-rl/qwen3-8b-0708-games-bothink-iter383) — 1 GPU ===
+[ERROR] spiral-i383 서버 프로세스(613152)가 죽음 (50s). 로그 확인: /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs_slurm/66374006_2

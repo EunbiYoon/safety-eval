@@ -1,0 +1,52 @@
+=== [0] qwen3-8b (Qwen/Qwen3-8B) — 1 GPU ===
+[ok] qwen3-8b ready on :8000 (80s)
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed0/harmful 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed0/benign 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed0/chat 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed1/harmful 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed1/benign 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed1/chat 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed2/harmful 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed2/benign 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed2/chat 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed3/harmful 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed3/benign 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed3/chat 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed0/harmful 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed0/benign 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed0/chat 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed1/harmful 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed1/benign 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed1/chat 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed2/harmful 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed2/benign 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed2/chat 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed3/harmful 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed3/benign 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed3/chat 완료됨
+[ok] judge ready on :8001 (110s)
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed0/benign/2026-10-30T14-57-30-00-00_agentharm-benign_4uTxzqEHpQ8u2xD3cAwNn5.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed0/chat/2026-10-30T15-07-55-00-00_agentharm_7U4LuhsVt66WbJ8eGxuraJ.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed0/harmful/2026-10-30T14-46-37-00-00_agentharm_5BsJ6T2PMwdL7UM4f4XHzp.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed1/benign/2026-10-30T15-18-04-00-00_agentharm-benign_JVxiPXLradPRJiRMDJPn24.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed1/chat/2026-10-30T15-28-30-00-00_agentharm_guNwVdpaNXZMGHe54SnMQx.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed1/harmful/2026-10-30T15-09-16-00-00_agentharm_CmAZbvDwez4aTbztHguJiF.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed2/benign/2026-10-30T15-39-12-00-00_agentharm-benign_oGhKJX4BY4LpsKMPtTySZA.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed2/chat/2026-10-30T15-51-31-00-00_agentharm_nfdAeABsHcyesFhJPNwUzF.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed2/harmful/2026-10-30T15-29-51-00-00_agentharm_cNWbsXZnpRhauyjHhh6dK8.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed3/benign/2026-10-30T16-02-36-00-00_agentharm-benign_ZQRH4VeW6RVFXHYSyFwV9Q.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed3/chat/2026-10-30T16-11-54-00-00_agentharm_3sD9d3gv8PkXVm6L92d4Gr.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed3/harmful/2026-10-30T15-53-11-00-00_agentharm_5EYURhPyPk6N2toTYsVTpz.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed0/benign/2026-10-30T16-32-56-00-00_agentharm-benign_8fBmRUz4PEhHHzqEAuDzSs.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed0/chat/2026-10-31T03-46-24-00-00_agentharm_Fngf6FdcyWwBTVyCrvthF5.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed0/harmful/2026-10-30T16-13-16-00-00_agentharm_UhmXfHyEa3fPrXSUkJBwRZ.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed1/benign/2026-10-31T04-03-56-00-00_agentharm-benign_C5rF4ZTvXewpxXjZwJdymU.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed1/chat/2026-10-31T04-20-59-00-00_agentharm_GEsJTYw3bJCwLgEHNT5ELJ.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed1/harmful/2026-10-31T03-48-31-00-00_agentharm_LLv2Q6z2tf7xuhBAr3nQkx.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed2/benign/2026-10-31T04-38-53-00-00_agentharm-benign_mHcW3JbMK9G2U6J9mXzBDY.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed2/chat/2026-10-31T04-54-56-00-00_agentharm_LhrxgdyJQFpXxCqxAc7nNj.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed2/harmful/2026-10-31T04-23-06-00-00_agentharm_fzisYjwv7omGmbNjEdY95y.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed3/benign/2026-10-31T05-30-44-00-00_agentharm-benign_7tcuthQFSwArkoQg7RjGwB.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed3/chat/2026-10-31T06-10-16-00-00_agentharm_msE8owaLUo7NjcKXcvYS6N.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed3/harmful/2026-10-31T04-57-01-00-00_agentharm_TYUQyLEgtNbfMrN9DkSbUg.eval 이미 채점됨
+=== done qwen3-8b ===

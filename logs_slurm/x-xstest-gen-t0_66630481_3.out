@@ -1,0 +1,151 @@
+gpu044
+Wed Nov  4 12:31:43 AM UTC 2026
+/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/bin/python
+Python 3.11.18
+=== [3] spiral-blend-i287 stage=gen benches=[xstest] think=[0] seeds=[0 1 2 3] limit=[] ===
+[ok] spiral-blend-i287 ready on :57761 (80s)
+[run] xstest spiral-blend-i287 think=0 seed=0 part=safe
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 33814.12 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 32926.34 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│xstest (250 samples): openai-api/policy/spiral-blend-i287                     │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 4096,     
+temperature: 0.0, seed: 0, extra_body: {...}, fail_on_error: 0.05, subset: safe,
+scorer_model: openai-api/judge/judge, dataset: walledai/XSTest                  
+                                                                                
+total time:                           0:05:00                                   
+openai-api/policy/spiral-blend-i287   97,210 tokens [I: 8,329, O: 88,881, R: 0] 
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/xstest/spiral-blend-i287/think0/seed0/safe/2026-11-04T00-33-19-00-00_
+xstest_oP2BEhPQf53NF5n3YM7tre.eval                                              
+                                                                                [run] xstest spiral-blend-i287 think=0 seed=0 part=unsafe
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 13998.95 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 13832.04 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│xstest (200 samples): openai-api/policy/spiral-blend-i287                     │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 4096,     
+temperature: 0.0, seed: 0, extra_body: {...}, fail_on_error: 0.05, subset:      
+unsafe, scorer_model: openai-api/judge/judge, dataset: walledai/XSTest          
+                                                                                
+total time:                           0:02:13                                   
+openai-api/policy/spiral-blend-i287   31,254 tokens [I: 6,642, O: 24,612, R: 0] 
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/xstest/spiral-blend-i287/think0/seed0/unsafe/2026-11-04T00-38-23-00-0
+0_xstest_iXjq2PCaNMkhD2hiJkaBza.eval                                            
+                                                                                [run] xstest spiral-blend-i287 think=0 seed=1 part=safe
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 38991.79 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 37872.96 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│xstest (250 samples): openai-api/policy/spiral-blend-i287                     │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 4096,     
+top_p: 0.8, temperature: 0.7, seed: 1, extra_body: {...}, fail_on_error: 0.05,  
+subset: safe, scorer_model: openai-api/judge/judge, dataset: walledai/XSTest    
+                                                                                
+total time:                           0:04:57                                   
+openai-api/policy/spiral-blend-i287   96,095 tokens [I: 8,329, O: 87,766, R: 0] 
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/xstest/spiral-blend-i287/think0/seed1/safe/2026-11-04T00-40-51-00-00_
+xstest_LRN5owdUXpipKQvXqbStQj.eval                                              
+                                                                                [run] xstest spiral-blend-i287 think=0 seed=1 part=unsafe
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 31438.94 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 30607.91 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│xstest (200 samples): openai-api/policy/spiral-blend-i287                     │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 4096,     
+top_p: 0.8, temperature: 0.7, seed: 1, extra_body: {...}, fail_on_error: 0.05,  
+subset: unsafe, scorer_model: openai-api/judge/judge, dataset: walledai/XSTest  
+                                                                                
+total time:                           0:02:07                                   
+openai-api/policy/spiral-blend-i287   33,077 tokens [I: 6,642, O: 26,435, R: 0] 
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/xstest/spiral-blend-i287/think0/seed1/unsafe/2026-11-04T00-45-53-00-0
+0_xstest_mK4uJhGu94rASc7Z8BTCzB.eval                                            
+                                                                                [run] xstest spiral-blend-i287 think=0 seed=2 part=safe
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 36001.92 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 34982.98 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│xstest (250 samples): openai-api/policy/spiral-blend-i287                     │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 4096,     
+top_p: 0.8, temperature: 0.7, seed: 2, extra_body: {...}, fail_on_error: 0.05,  
+subset: safe, scorer_model: openai-api/judge/judge, dataset: walledai/XSTest    
+                                                                                
+total time:                           0:04:57                                   
+openai-api/policy/spiral-blend-i287   94,618 tokens [I: 8,329, O: 86,289, R: 0] 
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/xstest/spiral-blend-i287/think0/seed2/safe/2026-11-04T00-48-15-00-00_
+xstest_iy3x7JfMuFjMCXkFcHZiXS.eval                                              
+                                                                                [run] xstest spiral-blend-i287 think=0 seed=2 part=unsafe
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 38497.91 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 37287.86 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│xstest (200 samples): openai-api/policy/spiral-blend-i287                     │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 4096,     
+top_p: 0.8, temperature: 0.7, seed: 2, extra_body: {...}, fail_on_error: 0.05,  
+subset: unsafe, scorer_model: openai-api/judge/judge, dataset: walledai/XSTest  
+                                                                                
+total time:                           0:02:03                                   
+openai-api/policy/spiral-blend-i287   32,959 tokens [I: 6,642, O: 26,317, R: 0] 
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/xstest/spiral-blend-i287/think0/seed2/unsafe/2026-11-04T00-53-16-00-0
+0_xstest_EKxtjqqAQ56wN2CprL643Q.eval                                            
+                                                                                [run] xstest spiral-blend-i287 think=0 seed=3 part=safe
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 32930.94 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 32128.22 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│xstest (250 samples): openai-api/policy/spiral-blend-i287                     │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 4096,     
+top_p: 0.8, temperature: 0.7, seed: 3, extra_body: {...}, fail_on_error: 0.05,  
+subset: safe, scorer_model: openai-api/judge/judge, dataset: walledai/XSTest    
+                                                                                
+total time:                           0:05:03                                   
+openai-api/policy/spiral-blend-i287   96,636 tokens [I: 8,329, O: 88,307, R: 0] 
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/xstest/spiral-blend-i287/think0/seed3/safe/2026-11-04T00-55-34-00-00_
+xstest_cc4tif4hrvG6Ni4kfpFGJ6.eval                                              
+                                                                                [run] xstest spiral-blend-i287 think=0 seed=3 part=unsafe
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 33602.82 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 32670.44 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│xstest (200 samples): openai-api/policy/spiral-blend-i287                     │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 4096,     
+top_p: 0.8, temperature: 0.7, seed: 3, extra_body: {...}, fail_on_error: 0.05,  
+subset: unsafe, scorer_model: openai-api/judge/judge, dataset: walledai/XSTest  
+                                                                                
+total time:                           0:02:10                                   
+openai-api/policy/spiral-blend-i287   31,846 tokens [I: 6,642, O: 25,204, R: 0] 
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/xstest/spiral-blend-i287/think0/seed3/unsafe/2026-11-04T01-00-43-00-0
+0_xstest_2MEFFjCan5s9y9Nk7oQ5Dz.eval                                            
+                                                                                === done spiral-blend-i287 stage=gen ===

@@ -1,0 +1,38 @@
+=== [2] spiral-i383 (spiral-rl/qwen3-8b-0708-games-bothink-iter383) — 1 GPU ===
+[ok] spiral-i383 ready on :57747 (150s)
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed0/harmful 완료됨
+[run] spiral-i383 think=1 seed=0 split=benign
+╭──────────────────────────────────────────────────────────────────────────────╮
+│agentharm_benign (176 samples): openai-api/policy/spiral-i383                 │
+╰──────────────────────────────────────────────────────────────────────────────╯
+max_retries: 3, timeout: 3600, attempt_timeout: 1800, max_connections: 8,       
+max_tokens: 12288, temperature: 0.0, seed: 0, extra_body: {...}, fail_on_error: 
+0.05, message_limit: 20, split: test_public, refusal_judge:                     
+openai-api/judge/judge, semantic_judge: openai-api/judge/judge, dataset:        
+benign_behaviors_test_public                                                    
+                                                                                
+total time:                    1:03:16                                          
+openai-api/policy/spiral-i383  1,832,584 tokens [I: 966,505, O: 866,079, R:     
+                             314,788]                                           
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs/spiral-i383/think1/seed0/benign/2026-11-03T16-32-59-00-00_agentharm-benign_
+BwByph6655M2SFp8J7bpQe.eval                                                     
+                                                                                [11/03/26 17:36:17] WARNING  Error cleaning up sample buffer    database.py:2195
+                             databases at                                       
+                             /home/eunbiyoon_umass_edu/.local/s                 
+                             hare/inspect_ai/samplebuffer:                      
+                             [Errno 2] No such file or                          
+                             directory:                                         
+                             '/home/eunbiyoon_umass_edu/.local/                 
+                             share/inspect_ai/samplebuffer/8848                 
+                             699e0e783c2d852b5cb78637c687e615e2                 
+                             e800d4eac03b683ad7cc63bbfe'                        
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed0/chat 완료됨
+usage: run_eval.py [-h] --tag TAG --think {0,1} --seed SEED [--splits SPLITS]
+                   [--limit LIMIT] [--no-score]
+run_eval.py: error: argument --seed: invalid int value: 'benign'
+[FAIL] gen spiral-i383 think=1 seed=benign
+=== gen-only done spiral-i383 (1 / 0 benign / harmful benign chat) ===

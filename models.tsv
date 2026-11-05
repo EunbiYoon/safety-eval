@@ -1,0 +1,9 @@
+# tag	hf_repo	group	iter
+# group: ref | marshal | spiral | spiral_aux | control
+# iter: SPIRAL training step (curve x-axis). 0 for base.
+# ⚠️ If verify_checkpoints.py finds that SPIRAL started from Qwen3-8B-Base, switch the reference for the spiral rows to qwen3-8b-base.
+qwen3-8b	Qwen/Qwen3-8B	ref	0
+marshal-gen	nics-efc/MARSHAL-Generalist-Qwen3-8B	marshal	-1
+spiral-i383	spiral-rl/qwen3-8b-0708-games-bothink-iter383	spiral	383
+spiral-blend-i287	spiral-rl/qwen3-8b-0627-games-blend-iter287	spiral_aux	287
+# control	<add a non-game RL checkpoint here if found>	control	-1

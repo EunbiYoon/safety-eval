@@ -1,0 +1,18 @@
+[
+  {
+    "tag": "marshal-gen",
+    "repo": "nics-efc/MARSHAL-Generalist-Qwen3-8B",
+    "group": "marshal",
+    "iter": -1,
+    "num_hidden_layers": 36,
+    "hidden_size": 4096,
+    "intermediate_size": 12288,
+    "arch": "Qwen3ForCausalLM",
+    "name_or_path": "",
+    "arch_ok": true,
+    "has_template": true,
+    "tmpl_tools": true,
+    "tmpl_tool_call_tag": true,
+    "tmpl_enable_thinking": true
+  }
+]

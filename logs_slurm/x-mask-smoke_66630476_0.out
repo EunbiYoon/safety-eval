@@ -1,0 +1,156 @@
+uri-gpu013
+Tue Nov  3 09:49:56 PM UTC 2026
+/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/bin/python
+Python 3.11.18
+=== [0] qwen3-8b stage=all benches=[mask] think=[0 1] seeds=[0] limit=[5] ===
+[ok] qwen3-8b ready on :54917 (90s)
+[run] mask qwen3-8b think=0 seed=0 part=all
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/176 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 176/176 [00:00<00:00, 6986.27 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 176/176 [00:00<00:00, 6913.26 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/125 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 125/125 [00:00<00:00, 6946.79 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 125/125 [00:00<00:00, 6781.37 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/120 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 120/120 [00:00<00:00, 4662.32 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 120/120 [00:00<00:00, 4584.15 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/209 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 209/209 [00:00<00:00, 9739.35 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 209/209 [00:00<00:00, 9586.09 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/274 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 274/274 [00:00<00:00, 11713.19 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 274/274 [00:00<00:00, 11522.47 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/96 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 96/96 [00:00<00:00, 5623.33 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 96/96 [00:00<00:00, 5516.86 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│mask (5 samples): openai-api/policy/qwen3-8b                                  │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 1000,     
+temperature: 1.0, seed: 0, extra_body: {...}, epochs_reducer:                   
+inspect_evals/_reduce, fail_on_error: 0.05, binary_judge_model:                 
+openai-api/judge/judge, numeric_judge_model: openai-api/judge/judge,            
+judge_temperature: 0.0, dataset: (samples)                                      
+                                                                                
+total time:                       0:00:40                                       
+openai-api/policy/qwen3-8b        5,667 tokens [I: 1,630, O: 4,037, R: 0]       
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra_smoke/mask/qwen3-8b/think0/seed0/all/2026-11-03T21-51-50-00-00_mask_C
+4NsvYU2qjKQiBz43gzXZZ.eval                                                      
+                                                                                [11/03/26 21:52:31] WARNING  Error cleaning up sample buffer    database.py:2195
+                             databases at                                       
+                             /home/eunbiyoon_umass_edu/.local/s                 
+                             hare/inspect_ai/samplebuffer:                      
+                             [Errno 2] No such file or                          
+                             directory:                                         
+                             '/home/eunbiyoon_umass_edu/.local/                 
+                             share/inspect_ai/samplebuffer/02c5                 
+                             daf250f5d936b36c7d691b58f5134bcb52                 
+                             01c161522a2d67657b144d612d'                        
+[run] mask qwen3-8b think=1 seed=0 part=all
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/176 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 176/176 [00:00<00:00, 2222.17 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 176/176 [00:00<00:00, 2210.53 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/125 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 125/125 [00:00<00:00, 5818.18 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 125/125 [00:00<00:00, 5716.37 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/120 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 120/120 [00:00<00:00, 6669.62 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 120/120 [00:00<00:00, 6510.62 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/209 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 209/209 [00:00<00:00, 10151.11 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 209/209 [00:00<00:00, 9971.10 examples/s] 
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/274 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 274/274 [00:00<00:00, 13837.25 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 274/274 [00:00<00:00, 13582.46 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/96 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 96/96 [00:00<00:00, 6580.27 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 96/96 [00:00<00:00, 6435.86 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│mask (5 samples): openai-api/policy/qwen3-8b                                  │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 12288,    
+temperature: 1.0, seed: 0, extra_body: {...}, epochs_reducer:                   
+inspect_evals/_reduce, fail_on_error: 0.05, binary_judge_model:                 
+openai-api/judge/judge, numeric_judge_model: openai-api/judge/judge,            
+judge_temperature: 0.0, dataset: (samples)                                      
+                                                                                
+total time:                    0:01:36                                          
+openai-api/policy/qwen3-8b     17,179 tokens [I: 1,558, O: 15,621, R: 10,338]   
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra_smoke/mask/qwen3-8b/think1/seed0/all/2026-11-03T21-52-48-00-00_mask_K
+fE5gQFmq9YJTj6qAgXWz9.eval                                                      
+                                                                                [ok] judge ready on :47489 (130s)
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/176 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 176/176 [00:00<00:00, 7702.64 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 176/176 [00:00<00:00, 7566.76 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/125 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 125/125 [00:00<00:00, 5795.54 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 125/125 [00:00<00:00, 5677.18 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/120 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 120/120 [00:00<00:00, 5518.03 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 120/120 [00:00<00:00, 5404.97 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/209 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 209/209 [00:00<00:00, 10410.30 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 209/209 [00:00<00:00, 10221.54 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/274 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 274/274 [00:00<00:00, 13553.47 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 274/274 [00:00<00:00, 13315.25 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/96 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 96/96 [00:00<00:00, 4933.63 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 96/96 [00:00<00:00, 4878.69 examples/s]
+Traceback (most recent call last):
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/run_extra.py", line 115, in <module>
+    main()
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/run_extra.py", line 111, in main
+    score_all(args)
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/run_extra.py", line 93, in score_all
+    scored = score(log, scorers=build_task(args.bench, part).scorer,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/site-packages/inspect_ai/_eval/score.py", line 151, in score
+    return anyio.run(
+           ^^^^^^^^^^
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/site-packages/anyio/_core/_eventloop.py", line 83, in run
+    return async_backend.run(func, args, {}, backend_options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2548, in run
+    return runner.run(wrapper())
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2531, in wrapper
+    return await func(*args)
+           ^^^^^^^^^^^^^^^^^
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/site-packages/inspect_ai/_eval/score.py", line 367, in score_async
+    await tg_collect(
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/site-packages/inspect_ai/_util/_async.py", line 65, in tg_collect
+    with unwrap_exception_group(None if exception_group else "first"):
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/site-packages/inspect_ai/_util/_async.py", line 124, in __exit__
+    raise_unwrapped(group, group.exceptions[0])
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/site-packages/inspect_ai/_util/_async.py", line 188, in raise_unwrapped
+    raise error
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/site-packages/anyio/_core/_tasks.py", line 327, in _run_coro
+    retval = await self._coro
+             ^^^^^^^^^^^^^^^^
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/site-packages/inspect_ai/_util/_async.py", line 71, in run_task
+    result = await func()
+             ^^^^^^^^^^^^
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/site-packages/inspect_ai/_eval/score.py", line 356, in _score_sample
+    sample_score, names = await _run_score_task(
+                          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/site-packages/inspect_ai/_eval/score.py", line 547, in _run_score_task
+    score_result = await scorer(state, target)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/site-packages/inspect_evals/mask/scorer.py", line 124, in score
+    *assemble_judge_estimation_tasks(state, judge_model)
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/site-packages/inspect_evals/mask/judge_estimate/orchestrate.py", line 45, in assemble_judge_estimation_tasks
+    estimate_statement_tasks = assemble_statements(state, judge_model)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/site-packages/inspect_evals/mask/judge_estimate/orchestrate.py", line 127, in assemble_statements
+    statement_estimator = build_estimator(
+                          ^^^^^^^^^^^^^^^^
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/site-packages/inspect_evals/mask/judge_estimate/orchestrate.py", line 250, in build_estimator
+    judge_context = JudgePromptContext(**(invariant_args | variant_args))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/site-packages/pydantic/main.py", line 280, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for JudgePromptContext
+config_name
+  Input should be an instance of QuestionArchetype [type=is_instance_of, input_value='known_facts', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.14/v/is_instance_of
+[FAIL] score mask qwen3-8b
+=== done qwen3-8b stage=all ===

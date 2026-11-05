@@ -1,0 +1,151 @@
+gpu037
+Tue Nov  3 11:54:18 PM UTC 2026
+/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/bin/python
+Python 3.11.18
+=== [1] marshal-gen stage=gen benches=[xstest] think=[0] seeds=[0 1 2 3] limit=[] ===
+[ok] marshal-gen ready on :36121 (90s)
+[run] xstest marshal-gen think=0 seed=0 part=safe
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 34245.43 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 33361.68 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│xstest (250 samples): openai-api/policy/marshal-gen                           │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 4096,     
+temperature: 0.0, seed: 0, extra_body: {...}, fail_on_error: 0.05, subset: safe,
+scorer_model: openai-api/judge/judge, dataset: walledai/XSTest                  
+                                                                                
+total time:                       0:05:38                                       
+openai-api/policy/marshal-gen     109,632 tokens [I: 8,329, O: 101,303, R: 0]   
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/xstest/marshal-gen/think0/seed0/safe/2026-11-03T23-56-05-00-00_xstest
+_fU68FrfG8AFtxz9TuS5y2M.eval                                                    
+                                                                                [run] xstest marshal-gen think=0 seed=0 part=unsafe
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 16427.49 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 16189.36 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│xstest (200 samples): openai-api/policy/marshal-gen                           │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 4096,     
+temperature: 0.0, seed: 0, extra_body: {...}, fail_on_error: 0.05, subset:      
+unsafe, scorer_model: openai-api/judge/judge, dataset: walledai/XSTest          
+                                                                                
+total time:                        0:02:20                                      
+openai-api/policy/marshal-gen      36,737 tokens [I: 6,642, O: 30,095, R: 0]    
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/xstest/marshal-gen/think0/seed0/unsafe/2026-11-04T00-01-49-00-00_xste
+st_ApPS57u8UeJp27rUYiEbwU.eval                                                  
+                                                                                [run] xstest marshal-gen think=0 seed=1 part=safe
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 23527.96 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 23117.32 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│xstest (250 samples): openai-api/policy/marshal-gen                           │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 4096,     
+top_p: 0.8, temperature: 0.7, seed: 1, extra_body: {...}, fail_on_error: 0.05,  
+subset: safe, scorer_model: openai-api/judge/judge, dataset: walledai/XSTest    
+                                                                                
+total time:                       0:05:48                                       
+openai-api/policy/marshal-gen     112,662 tokens [I: 8,329, O: 104,333, R: 0]   
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/xstest/marshal-gen/think0/seed1/safe/2026-11-04T00-04-24-00-00_xstest
+_SsNb5Vge9htTqXGL48pcwQ.eval                                                    
+                                                                                [run] xstest marshal-gen think=0 seed=1 part=unsafe
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 37658.36 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 36505.36 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│xstest (200 samples): openai-api/policy/marshal-gen                           │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 4096,     
+top_p: 0.8, temperature: 0.7, seed: 1, extra_body: {...}, fail_on_error: 0.05,  
+subset: unsafe, scorer_model: openai-api/judge/judge, dataset: walledai/XSTest  
+                                                                                
+total time:                        0:02:15                                      
+openai-api/policy/marshal-gen      38,884 tokens [I: 6,642, O: 32,242, R: 0]    
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/xstest/marshal-gen/think0/seed1/unsafe/2026-11-04T00-10-17-00-00_xste
+st_Mv6NrnBcnbCx9J4AqF5Ttz.eval                                                  
+                                                                                [run] xstest marshal-gen think=0 seed=2 part=safe
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 33216.66 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 32409.58 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│xstest (250 samples): openai-api/policy/marshal-gen                           │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 4096,     
+top_p: 0.8, temperature: 0.7, seed: 2, extra_body: {...}, fail_on_error: 0.05,  
+subset: safe, scorer_model: openai-api/judge/judge, dataset: walledai/XSTest    
+                                                                                
+total time:                       0:05:48                                       
+openai-api/policy/marshal-gen     111,041 tokens [I: 8,329, O: 102,712, R: 0]   
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/xstest/marshal-gen/think0/seed2/safe/2026-11-04T00-12-47-00-00_xstest
+_eGPTHHVJWJkVMXDkVqvpGv.eval                                                    
+                                                                                [run] xstest marshal-gen think=0 seed=2 part=unsafe
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 32715.18 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 31845.26 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│xstest (200 samples): openai-api/policy/marshal-gen                           │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 4096,     
+top_p: 0.8, temperature: 0.7, seed: 2, extra_body: {...}, fail_on_error: 0.05,  
+subset: unsafe, scorer_model: openai-api/judge/judge, dataset: walledai/XSTest  
+                                                                                
+total time:                        0:02:23                                      
+openai-api/policy/marshal-gen      38,731 tokens [I: 6,642, O: 32,089, R: 0]    
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/xstest/marshal-gen/think0/seed2/unsafe/2026-11-04T00-18-39-00-00_xste
+st_oRgBDfHpqNxKjXvw6yaJZT.eval                                                  
+                                                                                [run] xstest marshal-gen think=0 seed=3 part=safe
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 27819.02 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 27241.24 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│xstest (250 samples): openai-api/policy/marshal-gen                           │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 4096,     
+top_p: 0.8, temperature: 0.7, seed: 3, extra_body: {...}, fail_on_error: 0.05,  
+subset: safe, scorer_model: openai-api/judge/judge, dataset: walledai/XSTest    
+                                                                                
+total time:                       0:05:48                                       
+openai-api/policy/marshal-gen     112,407 tokens [I: 8,329, O: 104,078, R: 0]   
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/xstest/marshal-gen/think0/seed3/safe/2026-11-04T00-21-16-00-00_xstest
+_QrrRGBkqSnJiPkyKGjtez3.eval                                                    
+                                                                                [run] xstest marshal-gen think=0 seed=3 part=unsafe
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 29369.13 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 28643.53 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│xstest (200 samples): openai-api/policy/marshal-gen                           │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 4096,     
+top_p: 0.8, temperature: 0.7, seed: 3, extra_body: {...}, fail_on_error: 0.05,  
+subset: unsafe, scorer_model: openai-api/judge/judge, dataset: walledai/XSTest  
+                                                                                
+total time:                        0:02:15                                      
+openai-api/policy/marshal-gen      39,169 tokens [I: 6,642, O: 32,527, R: 0]    
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/xstest/marshal-gen/think0/seed3/unsafe/2026-11-04T00-27-09-00-00_xste
+st_jocVZjdAneFtXkJQXJnGfW.eval                                                  
+                                                                                === done marshal-gen stage=gen ===

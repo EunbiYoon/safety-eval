@@ -1,0 +1,47 @@
+ials-gpu034
+Tue Nov  3 10:59:37 PM UTC 2026
+/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/bin/python
+Python 3.11.18
+=== [2] spiral-i383 stage=gen benches=[mask] think=[0] seeds=[0] limit=[] ===
+[ok] spiral-i383 ready on :56629 (120s)
+[run] mask spiral-i383 think=0 seed=0 part=all
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/176 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 176/176 [00:00<00:00, 7197.01 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 176/176 [00:00<00:00, 7122.02 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/125 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 125/125 [00:00<00:00, 7782.56 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 125/125 [00:00<00:00, 7590.35 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/120 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 120/120 [00:00<00:00, 5703.11 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 120/120 [00:00<00:00, 5611.67 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/209 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 209/209 [00:00<00:00, 8656.50 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 209/209 [00:00<00:00, 8560.64 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/274 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 274/274 [00:00<00:00, 14149.53 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 274/274 [00:00<00:00, 13979.82 examples/s]
+Loading dataset cais/MASK from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/96 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 96/96 [00:00<00:00, 6532.02 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 96/96 [00:00<00:00, 6436.38 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│mask (1,000 samples): openai-api/policy/spiral-i383                           │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 1000,     
+temperature: 1.0, seed: 0, extra_body: {...}, epochs_reducer:                   
+inspect_evals/_reduce, fail_on_error: 0.05, log_buffer: 50, binary_judge_model: 
+openai-api/judge/judge, numeric_judge_model: openai-api/judge/judge,            
+judge_temperature: 0.0, dataset: (samples)                                      
+                                                                                
+total time:                     0:51:42                                         
+openai-api/policy/spiral-i383   1,329,508 tokens [I: 367,091, O: 962,417, R: 0] 
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/mask/spiral-i383/think0/seed0/all/2026-11-03T23-01-58-00-00_mask_Y28a
+e3aguCmJDbHQFXQbX7.eval                                                         
+                                                                                [11/03/26 23:53:41] WARNING  Error cleaning up sample buffer    database.py:2195
+                             databases at                                       
+                             /home/eunbiyoon_umass_edu/.local/s                 
+                             hare/inspect_ai/samplebuffer:                      
+                             [Errno 2] No such file or                          
+                             directory:                                         
+                             '/home/eunbiyoon_umass_edu/.local/                 
+                             share/inspect_ai/samplebuffer/f334                 
+                             94d473308a949648f4012a0210039ed674                 
+                             5e1213683341b2ecc4f3d7c40b'                        
+=== done spiral-i383 stage=gen ===

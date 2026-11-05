@@ -1,0 +1,151 @@
+ials-gpu034
+Tue Nov  3 11:54:17 PM UTC 2026
+/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/bin/python
+Python 3.11.18
+=== [0] qwen3-8b stage=gen benches=[xstest] think=[0] seeds=[0 1 2 3] limit=[] ===
+[ok] qwen3-8b ready on :45627 (80s)
+[run] xstest qwen3-8b think=0 seed=0 part=safe
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 33361.68 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 32499.43 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│xstest (250 samples): openai-api/policy/qwen3-8b                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 4096,     
+temperature: 0.0, seed: 0, extra_body: {...}, fail_on_error: 0.05, subset: safe,
+scorer_model: openai-api/judge/judge, dataset: walledai/XSTest                  
+                                                                                
+total time:                     0:05:41                                         
+openai-api/policy/qwen3-8b      112,982 tokens [I: 8,329, O: 104,653, R: 0]     
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/xstest/qwen3-8b/think0/seed0/safe/2026-11-03T23-55-52-00-00_xstest_eT
+rFJu9zi8nHXcryS5xWHu.eval                                                       
+                                                                                [run] xstest qwen3-8b think=0 seed=0 part=unsafe
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 39950.83 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 38616.05 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│xstest (200 samples): openai-api/policy/qwen3-8b                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 4096,     
+temperature: 0.0, seed: 0, extra_body: {...}, fail_on_error: 0.05, subset:      
+unsafe, scorer_model: openai-api/judge/judge, dataset: walledai/XSTest          
+                                                                                
+total time:                      0:02:10                                        
+openai-api/policy/qwen3-8b       39,080 tokens [I: 6,642, O: 32,438, R: 0]      
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/xstest/qwen3-8b/think0/seed0/unsafe/2026-11-04T00-01-39-00-00_xstest_
+StA8ZsKHJVVjhCtny6RGVr.eval                                                     
+                                                                                [run] xstest qwen3-8b think=0 seed=1 part=safe
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 37835.00 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 36786.40 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│xstest (250 samples): openai-api/policy/qwen3-8b                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 4096,     
+top_p: 0.8, temperature: 0.7, seed: 1, extra_body: {...}, fail_on_error: 0.05,  
+subset: safe, scorer_model: openai-api/judge/judge, dataset: walledai/XSTest    
+                                                                                
+total time:                     0:05:41                                         
+openai-api/policy/qwen3-8b      110,301 tokens [I: 8,329, O: 101,972, R: 0]     
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/xstest/qwen3-8b/think0/seed1/safe/2026-11-04T00-04-03-00-00_xstest_CS
+QEF59UXktJYxd2wbB5Bx.eval                                                       
+                                                                                [run] xstest qwen3-8b think=0 seed=1 part=unsafe
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 36855.36 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 35750.97 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│xstest (200 samples): openai-api/policy/qwen3-8b                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 4096,     
+top_p: 0.8, temperature: 0.7, seed: 1, extra_body: {...}, fail_on_error: 0.05,  
+subset: unsafe, scorer_model: openai-api/judge/judge, dataset: walledai/XSTest  
+                                                                                
+total time:                      0:03:36                                        
+openai-api/policy/qwen3-8b       43,856 tokens [I: 6,642, O: 37,214, R: 0]      
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/xstest/qwen3-8b/think0/seed1/unsafe/2026-11-04T00-09-48-00-00_xstest_
+7EthRiShiGsixWr64SoRZr.eval                                                     
+                                                                                [run] xstest qwen3-8b think=0 seed=2 part=safe
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 38051.63 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 36973.04 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│xstest (250 samples): openai-api/policy/qwen3-8b                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 4096,     
+top_p: 0.8, temperature: 0.7, seed: 2, extra_body: {...}, fail_on_error: 0.05,  
+subset: safe, scorer_model: openai-api/judge/judge, dataset: walledai/XSTest    
+                                                                                
+total time:                     0:05:48                                         
+openai-api/policy/qwen3-8b      113,733 tokens [I: 8,329, O: 105,404, R: 0]     
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/xstest/qwen3-8b/think0/seed2/safe/2026-11-04T00-13-39-00-00_xstest_cd
+X5Xb8p6zrsU7jZWiPKSM.eval                                                       
+                                                                                [run] xstest qwen3-8b think=0 seed=2 part=unsafe
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 34467.44 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 33478.25 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│xstest (200 samples): openai-api/policy/qwen3-8b                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 4096,     
+top_p: 0.8, temperature: 0.7, seed: 2, extra_body: {...}, fail_on_error: 0.05,  
+subset: unsafe, scorer_model: openai-api/judge/judge, dataset: walledai/XSTest  
+                                                                                
+total time:                      0:02:23                                        
+openai-api/policy/qwen3-8b       38,491 tokens [I: 6,642, O: 31,849, R: 0]      
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/xstest/qwen3-8b/think0/seed2/unsafe/2026-11-04T00-19-31-00-00_xstest_
+LnoyUU6QtnrGzDX4kjF3ii.eval                                                     
+                                                                                [run] xstest qwen3-8b think=0 seed=3 part=safe
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 36485.60 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 35497.49 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│xstest (250 samples): openai-api/policy/qwen3-8b                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 4096,     
+top_p: 0.8, temperature: 0.7, seed: 3, extra_body: {...}, fail_on_error: 0.05,  
+subset: safe, scorer_model: openai-api/judge/judge, dataset: walledai/XSTest    
+                                                                                
+total time:                     0:05:38                                         
+openai-api/policy/qwen3-8b      109,679 tokens [I: 8,329, O: 101,350, R: 0]     
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/xstest/qwen3-8b/think0/seed3/safe/2026-11-04T00-22-09-00-00_xstest_3g
+Bits5xXRqPbUo8sANEPC.eval                                                       
+                                                                                [run] xstest qwen3-8b think=0 seed=3 part=unsafe
+Loading dataset walledai/XSTest from Hugging Face...
+Saving the dataset (0/1 shards):   0%|          | 0/450 [00:00<?, ? examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 32305.85 examples/s]Saving the dataset (1/1 shards): 100%|██████████| 450/450 [00:00<00:00, 31443.13 examples/s]
+╭──────────────────────────────────────────────────────────────────────────────╮
+│xstest (200 samples): openai-api/policy/qwen3-8b                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+timeout: 3600, attempt_timeout: 1800, max_connections: 8, max_tokens: 4096,     
+top_p: 0.8, temperature: 0.7, seed: 3, extra_body: {...}, fail_on_error: 0.05,  
+subset: unsafe, scorer_model: openai-api/judge/judge, dataset: walledai/XSTest  
+                                                                                
+total time:                      0:02:07                                        
+openai-api/policy/qwen3-8b       38,907 tokens [I: 6,642, O: 32,265, R: 0]      
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs_extra/xstest/qwen3-8b/think0/seed3/unsafe/2026-11-04T00-27-51-00-00_xstest_
+PF8k4YfPXu6tcuKEiNuEKT.eval                                                     
+                                                                                === done qwen3-8b stage=gen ===

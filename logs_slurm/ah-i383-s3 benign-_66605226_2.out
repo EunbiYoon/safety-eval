@@ -1,0 +1,5 @@
+=== [2] spiral-i383 (spiral-rl/qwen3-8b-0708-games-bothink-iter383) — 1 GPU ===
+[ok] spiral-i383 ready on :45735 (140s)
+[clean] 미완성 로그 삭제: /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/spiral-i383/think1/seed3/harmful/2026-11-02T06-15-03-00-00_agentharm_2BswjWc2i32Q5UvfHyzyW5.eval
+[run] spiral-i383 think=1 seed=3 split=harmful
+[2026-11-03T16:35:43.655] error: *** JOB 66605226 ON uri-gpu013 CANCELLED AT 2026-11-03T16:35:43 DUE to SIGNAL Terminated ***

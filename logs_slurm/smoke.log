@@ -1,0 +1,126 @@
+GPU 0: NVIDIA L40S (UUID: GPU-3d0dcc05-a383-0977-526b-a31e3ba5345f)
+HF_HOME=/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.cache/huggingface | SEEDS=0 | GPU=0
+
+================ [0] qwen3-8b (Qwen/Qwen3-8B) ================
+[ok] qwen3-8b ready on :8000 (80s)
+[run] qwen3-8b think=0 seed=0 split=harmful
+/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py:189: UserWarning: The `resume_download` argument is deprecated and ignored in `snapshot_download`. Downloads always resume whenever possible.
+  warnings.warn(
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files:  17%|█▋        | 1/6 [00:00<00:03,  1.41it/s]Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00,  7.45it/s]
+╭───────────────────────────────────────────────────────────────────────────╮
+│agentharm (5 samples): openai-api/policy/qwen3-8b                          │
+╰───────────────────────────────────────────────────────────────────────────╯
+max_retries: 3, max_connections: 32, max_tokens: 4096, temperature: 0.0,     
+seed: 0, extra_body: {...}, fail_on_error: 0.05, message_limit: 20, split:   
+test_public, refusal_judge: openai-api/judge/judge, semantic_judge:          
+openai-api/judge/judge, dataset: harmful_behaviors_test_public               
+                                                                             
+total time:                     0:00:43                                      
+openai-api/policy/qwen3-8b      12,991 tokens [I: 11,264, O: 1,727, R: 0]    
+                                                                             
+                                                                             
+                                                                             
+Log:                                                                         
+logs/qwen3-8b/think0/seed0/harmful/2026-10-30T02-41-45-00-00_agentharm_Kzh2tp
+XNoDnxMVs4vU6KJd.eval                                                        
+                                                                             [run] qwen3-8b think=0 seed=0 split=benign
+╭───────────────────────────────────────────────────────────────────────────╮
+│agentharm_benign (5 samples): openai-api/policy/qwen3-8b                   │
+╰───────────────────────────────────────────────────────────────────────────╯
+max_retries: 3, max_connections: 32, max_tokens: 4096, temperature: 0.0,     
+seed: 0, extra_body: {...}, fail_on_error: 0.05, message_limit: 20, split:   
+test_public, refusal_judge: openai-api/judge/judge, semantic_judge:          
+openai-api/judge/judge, dataset: benign_behaviors_test_public                
+                                                                             
+total time:                     0:00:17                                      
+openai-api/policy/qwen3-8b      12,595 tokens [I: 11,078, O: 1,517, R: 0]    
+                                                                             
+                                                                             
+                                                                             
+Log:                                                                         
+logs/qwen3-8b/think0/seed0/benign/2026-10-30T02-42-30-00-00_agentharm-benign_
+Q9PSV6wdYkqufMJD3STm27.eval                                                  
+                                                                             [run] qwen3-8b think=0 seed=0 split=chat
+╭───────────────────────────────────────────────────────────────────────────╮
+│agentharm (5 samples): openai-api/policy/qwen3-8b                          │
+╰───────────────────────────────────────────────────────────────────────────╯
+max_retries: 3, max_connections: 32, max_tokens: 4096, temperature: 0.0,     
+seed: 0, extra_body: {...}, fail_on_error: 0.05, message_limit: 20, split:   
+test_public, refusal_judge: openai-api/judge/judge, semantic_judge:          
+openai-api/judge/judge, chat_dataset: True, dataset: chat_public_test        
+                                                                             
+total time:                      0:00:28                                     
+openai-api/policy/qwen3-8b       2,118 tokens [I: 923, O: 1,195, R: 0]       
+                                                                             
+                                                                             
+                                                                             
+Log:                                                                         
+logs/qwen3-8b/think0/seed0/chat/2026-10-30T02-42-49-00-00_agentharm_mWSezPQoZ
+7zqSTYqS3jGfX.eval                                                           
+                                                                             [run] qwen3-8b think=1 seed=0 split=harmful
+╭───────────────────────────────────────────────────────────────────────────╮
+│agentharm (5 samples): openai-api/policy/qwen3-8b                          │
+╰───────────────────────────────────────────────────────────────────────────╯
+max_retries: 3, max_connections: 32, max_tokens: 12288, temperature: 0.0,    
+seed: 0, extra_body: {...}, fail_on_error: 0.05, message_limit: 20, split:   
+test_public, refusal_judge: openai-api/judge/judge, semantic_judge:          
+openai-api/judge/judge, dataset: harmful_behaviors_test_public               
+                                                                             
+total time:                  0:01:38                                         
+openai-api/policy/qwen3-8b   36,492 tokens [I: 24,119, O: 12,373, R: 10,603] 
+                                                                             
+                                                                             
+                                                                             
+Log:                                                                         
+logs/qwen3-8b/think1/seed0/harmful/2026-10-30T02-43-29-00-00_agentharm_Z8GrtF
+xWLz4yrnERdMt4W2.eval                                                        
+                                                                             [run] qwen3-8b think=1 seed=0 split=benign
+╭───────────────────────────────────────────────────────────────────────────╮
+│agentharm_benign (5 samples): openai-api/policy/qwen3-8b                   │
+╰───────────────────────────────────────────────────────────────────────────╯
+max_retries: 3, max_connections: 32, max_tokens: 12288, temperature: 0.0,    
+seed: 0, extra_body: {...}, fail_on_error: 0.05, message_limit: 20, split:   
+test_public, refusal_judge: openai-api/judge/judge, semantic_judge:          
+openai-api/judge/judge, dataset: benign_behaviors_test_public                
+                                                                             
+total time:                  0:01:34                                         
+openai-api/policy/qwen3-8b   46,359 tokens [I: 32,469, O: 13,890, R: 11,727] 
+                                                                             
+                                                                             
+                                                                             
+Log:                                                                         
+logs/qwen3-8b/think1/seed0/benign/2026-10-30T02-45-08-00-00_agentharm-benign_
+SMUUvqp6dzbBdd7HzBJEDo.eval                                                  
+                                                                             [run] qwen3-8b think=1 seed=0 split=chat
+╭───────────────────────────────────────────────────────────────────────────╮
+│agentharm (5 samples): openai-api/policy/qwen3-8b                          │
+╰───────────────────────────────────────────────────────────────────────────╯
+max_retries: 3, max_connections: 32, max_tokens: 12288, temperature: 0.0,    
+seed: 0, extra_body: {...}, fail_on_error: 0.05, message_limit: 20, split:   
+test_public, refusal_judge: openai-api/judge/judge, semantic_judge:          
+openai-api/judge/judge, chat_dataset: True, dataset: chat_public_test        
+                                                                             
+total time:                     0:00:45                                      
+openai-api/policy/qwen3-8b      5,692 tokens [I: 903, O: 4,789, R: 2,358]    
+                                                                             
+                                                                             
+                                                                             
+Log:                                                                         
+logs/qwen3-8b/think1/seed0/chat/2026-10-30T02-46-45-00-00_agentharm_UGG4Nj7L6
+xLvsERrAwkEdy.eval                                                           
+                                                                             [ok] judge ready on :8001 (210s)
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed0/benign/2026-10-30T02-42-30-00-00_agentharm-benign_Q9PSV6wdYkqufMJD3STm27.eval
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed0/chat/2026-10-30T02-42-49-00-00_agentharm_mWSezPQoZ7zqSTYqS3jGfX.eval
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think0/seed0/harmful/2026-10-30T02-41-45-00-00_agentharm_Kzh2tpXNoDnxMVs4vU6KJd.eval
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed0/benign/2026-10-30T02-45-08-00-00_agentharm-benign_SMUUvqp6dzbBdd7HzBJEDo.eval
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed0/chat/2026-10-30T02-46-45-00-00_agentharm_UGG4Nj7L6xLvsERrAwkEdy.eval
+[ok] scored /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/qwen3-8b/think1/seed0/harmful/2026-10-30T02-43-29-00-00_agentharm_Z8GrtFxWLz4yrnERdMt4W2.eval
+[ok] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/results/visible_refusal/qwen3-8b/think0/seed0/benign/2026-10-30T02-42-30-00-00_agentharm-benign_Q9PSV6wdYkqufMJD3STm27.visible.json
+[ok] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/results/visible_refusal/qwen3-8b/think0/seed0/chat/2026-10-30T02-42-49-00-00_agentharm_mWSezPQoZ7zqSTYqS3jGfX.visible.json
+[ok] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/results/visible_refusal/qwen3-8b/think0/seed0/harmful/2026-10-30T02-41-45-00-00_agentharm_Kzh2tpXNoDnxMVs4vU6KJd.visible.json
+[ok] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/results/visible_refusal/qwen3-8b/think1/seed0/benign/2026-10-30T02-45-08-00-00_agentharm-benign_SMUUvqp6dzbBdd7HzBJEDo.visible.json
+[ok] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/results/visible_refusal/qwen3-8b/think1/seed0/chat/2026-10-30T02-46-45-00-00_agentharm_UGG4Nj7L6xLvsERrAwkEdy.visible.json
+[ok] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/results/visible_refusal/qwen3-8b/think1/seed0/harmful/2026-10-30T02-43-29-00-00_agentharm_Z8GrtFxWLz4yrnERdMt4W2.visible.json
+================ done qwen3-8b ================
+
+스모크 통과 시 결과 지우기: rm -rf logs/qwen3-8b results/visible_refusal results/*.csv

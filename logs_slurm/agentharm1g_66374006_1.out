@@ -1,0 +1,86 @@
+=== [1] marshal-gen (nics-efc/MARSHAL-Generalist-Qwen3-8B) — 1 GPU ===
+[ok] marshal-gen ready on :8000 (120s)
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think0/seed0/harmful 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think0/seed0/benign 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think0/seed0/chat 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think0/seed1/harmful 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think0/seed1/benign 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think0/seed1/chat 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think0/seed2/harmful 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think0/seed2/benign 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think0/seed2/chat 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think0/seed3/harmful 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think0/seed3/benign 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think0/seed3/chat 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think1/seed0/harmful 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think1/seed0/benign 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think1/seed0/chat 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think1/seed1/harmful 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think1/seed1/benign 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think1/seed1/chat 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think1/seed2/harmful 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think1/seed2/benign 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think1/seed2/chat 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think1/seed3/harmful 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think1/seed3/benign 완료됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think1/seed3/chat 완료됨
+[ok] judge ready on :8001 (100s)
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think0/seed0/benign/2026-10-31T02-45-27-00-00_agentharm-benign_cTWCfwSvhxmJNjfRzp7dzS.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think0/seed0/chat/2026-10-31T02-50-47-00-00_agentharm_iTQu5erFAQaZ5SWw5psT24.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think0/seed0/harmful/2026-10-31T02-39-14-00-00_agentharm_CtwjFNMPaJnK8vdQBNw74D.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think0/seed1/benign/2026-10-31T02-57-03-00-00_agentharm-benign_GRQJahJFXeiTZoSABGqKC7.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think0/seed1/chat/2026-10-31T03-02-02-00-00_agentharm_YeqUqfGXbSrXv5DiYUvx44.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think0/seed1/harmful/2026-10-31T02-51-45-00-00_agentharm_6BQPYekWuEL9T7ULaUt4rP.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think0/seed2/benign/2026-10-31T03-08-00-00-00_agentharm-benign_Xb2xGRkpJwNpPnrTcEx7Eb.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think0/seed2/chat/2026-10-31T03-13-02-00-00_agentharm_cuDHaLiRc6piH3rpqWiN2t.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think0/seed2/harmful/2026-10-31T03-03-05-00-00_agentharm_GkByQJ5UTTYPFeXbJiexiR.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think0/seed3/benign/2026-10-31T03-18-48-00-00_agentharm-benign_Se78qFuXLqRi6VLV6hmCgL.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think0/seed3/chat/2026-10-31T03-23-42-00-00_agentharm_nhrXJqMCQM79bVekjTqw6D.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think0/seed3/harmful/2026-10-31T03-14-05-00-00_agentharm_TiARxUBc2Cj4SrhmuoHV5g.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think1/seed0/benign/2026-10-31T03-41-48-00-00_agentharm-benign_VnMrrBewZoVwabMtZYY7Zf.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think1/seed0/chat/2026-10-31T04-03-45-00-00_agentharm_NcsAWdj9s5aEwXcN95CB7i.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think1/seed0/harmful/2026-10-31T03-24-48-00-00_agentharm_LA7VneC9wSyvGQQjFN4rQC.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think1/seed1/benign/2026-10-31T04-19-59-00-00_agentharm-benign_8NxVsYQdPxwS9FsebePoNH.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think1/seed1/chat/2026-10-31T04-35-02-00-00_agentharm_SZXoRfRGL8wxRd9433jNAf.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think1/seed1/harmful/2026-10-31T04-05-07-00-00_agentharm_kfeTRuY4HKUqb9vVr9gYqS.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think1/seed2/benign/2026-10-31T05-47-15-00-00_agentharm-benign_gRKFTKkY9Lx5wTkU9yKa5p.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think1/seed2/chat/2026-10-31T06-08-20-00-00_agentharm_FiJCzKNcDLLXgdb4cT2Q2J.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think1/seed2/harmful/2026-10-31T04-36-30-00-00_agentharm_QCHQajYbvYCDveLZX5w66p.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think1/seed3/benign/2026-10-31T06-25-12-00-00_agentharm-benign_A3WpeGbiTfwxUGzwPcY3U3.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think1/seed3/chat/2026-10-31T06-42-21-00-00_agentharm_H2W6HsYCvc5yEET8uHYjMK.eval 이미 채점됨
+[skip] /scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/logs/marshal-gen/think1/seed3/harmful/2026-10-31T06-10-13-00-00_agentharm_BZq8Z7fwZXxz6qGHy4DoGe.eval 이미 채점됨
+Traceback (most recent call last):
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/rescore_visible.py", line 89, in <module>
+    asyncio.run(main())
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/rescore_visible.py", line 85, in main
+    await process(p, out_root, log_root)
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/rescore_visible.py", line 72, in process
+    rows = await asyncio.gather(*(score_sample(s) for s in log.samples))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/asyncio/tasks.py", line 277, in __step
+    result = coro.send(None)
+             ^^^^^^^^^^^^^^^
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/rescore_visible.py", line 57, in score_sample
+    if await judge(t):
+       ^^^^^^^^^^^^^^
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/safety-eval/rescore_visible.py", line 38, in judge
+    r = await client.chat.completions.create(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 3414, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/site-packages/openai/_base_client.py", line 2085, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/workspace/eunbiyoon_umass_edu-paper/eunbiyoon_umass_edu/.conda/envs/safety-eval/lib/python3.11/site-packages/openai/_base_client.py", line 1870, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - This model's maximum context length is 16384 tokens. However, your prompt contains at least 16385 input tokens, which exceeds this limit even without any output tokens. Please reduce the length of the input prompt. (parameter=input_tokens, value=16385)

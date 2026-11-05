@@ -1,0 +1,55 @@
+=== [1] qwen3-8b-base (Qwen/Qwen3-8B-Base) — 1 GPU ===
+[ok] qwen3-8b-base ready on :8000 (140s)
+[run] qwen3-8b-base think=0 seed=0 split=harmful
+╭──────────────────────────────────────────────────────────────────────────────╮
+│agentharm (176 samples): openai-api/policy/qwen3-8b-base                      │
+╰──────────────────────────────────────────────────────────────────────────────╯
+max_retries: 3, max_connections: 32, max_tokens: 4096, temperature: 0.0, seed:  
+0, extra_body: {...}, fail_on_error: 0.05, message_limit: 20, split:            
+test_public, refusal_judge: openai-api/judge/judge, semantic_judge:             
+openai-api/judge/judge, dataset: harmful_behaviors_test_public                  
+                                                                                
+total time:                       0:10:19                                       
+openai-api/policy/qwen3-8b-base   457,337 tokens [I: 136,123, O: 321,214, R: 0] 
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs/qwen3-8b-base/think0/seed0/harmful/2026-10-30T15-15-03-00-00_agentharm_2hUf
+vrFLpVrQyPY59R4gSE.eval                                                         
+                                                                                [run] qwen3-8b-base think=0 seed=0 split=benign
+╭──────────────────────────────────────────────────────────────────────────────╮
+│agentharm_benign (176 samples): openai-api/policy/qwen3-8b-base               │
+╰──────────────────────────────────────────────────────────────────────────────╯
+max_retries: 3, max_connections: 32, max_tokens: 4096, temperature: 0.0, seed:  
+0, extra_body: {...}, fail_on_error: 0.05, message_limit: 20, split:            
+test_public, refusal_judge: openai-api/judge/judge, semantic_judge:             
+openai-api/judge/judge, dataset: benign_behaviors_test_public                   
+                                                                                
+total time:                       0:09:52                                       
+openai-api/policy/qwen3-8b-base   392,099 tokens [I: 120,358, O: 271,741, R: 0] 
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs/qwen3-8b-base/think0/seed0/benign/2026-10-30T15-25-24-00-00_agentharm-benig
+n_XG529FaDfcg734Nq3XLkL9.eval                                                   
+                                                                                [run] qwen3-8b-base think=0 seed=0 split=chat
+╭──────────────────────────────────────────────────────────────────────────────╮
+│agentharm (44 samples): openai-api/policy/qwen3-8b-base                       │
+╰──────────────────────────────────────────────────────────────────────────────╯
+max_retries: 3, max_connections: 32, max_tokens: 4096, temperature: 0.0, seed:  
+0, extra_body: {...}, fail_on_error: 0.05, message_limit: 20, split:            
+test_public, refusal_judge: openai-api/judge/judge, semantic_judge:             
+openai-api/judge/judge, chat_dataset: True, dataset: chat_public_test           
+                                                                                
+total time:                         0:02:27                                     
+openai-api/policy/qwen3-8b-base     28,848 tokens [I: 7,695, O: 21,153, R: 0]   
+                                                                                
+                                                                                
+                                                                                
+Log:                                                                            
+logs/qwen3-8b-base/think0/seed0/chat/2026-10-30T15-35-18-00-00_agentharm_b7kPzMU
+bJhgRyF7Kxcw88h.eval                                                            
+                                                                                [run] qwen3-8b-base think=0 seed=1 split=harmful
+[2026-10-30T15:44:29.839] error: *** JOB 66371976 ON gpu036 CANCELLED AT 2026-10-30T15:44:29 DUE to SIGNAL Terminated ***
