@@ -2,46 +2,46 @@
 
 Unity(SLURM) + L40S + vLLM + Inspect AgentHarm.
 
-## 실행 순서
+## Run order
 
 ```bash
-# 0. 설정: config.sh 의 [EDIT] 항목 (HF_HOME, JUDGE_REPO/REVISION, 파티션)
-bash setup_env.sh                                  # 로그인 노드, 1회
+# 0. Setup: the [EDIT] items in config.sh (HF_HOME, JUDGE_REPO/REVISION, partition)
+bash setup_env.sh                                  # login node, once
 
-# 1. ⚠️ W1 필수 — 이게 통과하기 전엔 GPU 쓰지 말 것
+# 1. ⚠️ W1 required — don't use GPUs until this passes
 srun -p cpu -c 8 --mem=64G -t 2:00:00 python verify_checkpoints.py
-#    - MARSHAL이 진짜 8B인지 (arch_ok)
-#    - SPIRAL이 Qwen3-8B 출발인지 Base 출발인지 (init_verdict)
-#    - 각 템플릿이 tools / enable_thinking 지원하는지
+#    - whether MARSHAL is really 8B (arch_ok)
+#    - whether SPIRAL starts from Qwen3-8B or from Base (init_verdict)
+#    - whether each template supports tools / enable_thinking
 
-# 2. 스모크 테스트 (Qwen3-8B, 5샘플, greedy)
+# 2. Smoke test (Qwen3-8B, 5 samples, greedy)
 SMOKE=1 sbatch --array=0 eval_array.sbatch
-#    logs_slurm/ 확인 → 로그 지우고 본 실행:  rm -rf logs/qwen3-8b
+#    check logs_slurm/ → delete the logs, then do the real run:  rm -rf logs/qwen3-8b
 
-# 3. 전체 스윕 (models.tsv 12행 → 0-11, %2 = 동시 2잡)
+# 3. Full sweep (12 rows in models.tsv → 0-11, %2 = 2 concurrent jobs)
 sbatch --array=0-11%2 eval_array.sbatch
 
-# 4. 분석 (GPU 불필요)
-python analyze.py                  # SPIRAL이 Base 출발이면 --ref qwen3-8b-base
+# 4. Analysis (no GPU needed)
+python analyze.py                  # if SPIRAL starts from Base: --ref qwen3-8b-base
 
-# 5. Judge 검증
-python judge_validation.py sample --n 150   # human_refusal 열 직접 채우기
+# 5. Judge validation
+python judge_validation.py sample --n 150   # fill in the human_refusal column by hand
 python judge_validation.py kappa
 ```
 
-## 설계상 결정과 근거
+## Design decisions and rationale
 
-| 결정 | 이유 |
+| Decision | Reason |
 |---|---|
-| Ollama 제외, vLLM만 | GGUF 양자화 + 다른 툴 파싱 = confound |
-| judge 서버에 `enable_thinking=false` 강제 | judge가 답을 `<think>` 안에 넣으면 `Answer:` 파싱 실패 → 거절 누락 |
-| `rescore_visible.py` | 원본 scorer는 reasoning까지 judge에 넘김 → think-on 모델의 거절률 부풀림 가능. 두 값 모두 보고 |
-| think-on `max_tokens=12288` | 4096에서 잘리면 툴 호출 없음 → '안전'으로 오집계 |
-| seed 0 = greedy, 1–3 = 샘플링 | 벤치마크 기본(greedy)과 비교 가능 + 분산 추정 |
-| behavior 단위 cluster bootstrap | 같은 behavior의 4개 변형은 독립 아님 |
-| `parse_fail`, `truncated` 경보 | 툴 호출 실패가 안전처럼 보이는 착시 감시 |
+| No Ollama, vLLM only | GGUF quantization + different tool parsing = confound |
+| Force `enable_thinking=false` on the judge server | If the judge puts its answer inside `<think>`, `Answer:` parsing fails → missed refusals |
+| `rescore_visible.py` | The original scorer passes the reasoning to the judge too → can inflate refusal rates for think-on models. Report both values |
+| think-on `max_tokens=12288` | Truncation at 4096 means no tool call → miscounted as 'safe' |
+| seed 0 = greedy, 1–3 = sampling | Comparable with the benchmark default (greedy) + variance estimates |
+| Behavior-level cluster bootstrap | The 4 variants of the same behavior are not independent |
+| `parse_fail`, `truncated` alarms | Watch for failed tool calls looking like safety |
 
-## 출력
+## Outputs
 - `results/checkpoint_verification.json`
 - `results/samples.csv` · `summary.csv` · `delta_vs_ref.csv`
 - `results/spiral_curve.png`
